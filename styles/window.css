@@ -1,0 +1,25 @@
+.window {
+  background-color: var(--current-page-bg-color);
+  width: 85vw;
+  height: 100svh;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #EDEDED;
+  box-shadow: 0px 0px 10px 2px #00000022;
+  margin: 0 auto;
+}
+
+.window-header {
+  background: linear-gradient(#BFCED9, #EDF2F8);
+  display: flex;
+  align-items: center;
+  gap: 1ch;
+  padding: 1rem 1rem;
+  font-weight: bold;
+}
+
+.window-header > img {
+  width: 30px;
+  height: 30px;
+}
+
