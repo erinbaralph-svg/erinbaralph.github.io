@@ -4,13 +4,13 @@
 
 .window {
     background-color: var(--current-page-bg-color);
-    width: 85vw;
     height: calc(100svh - var(--window-margin) - 1rem);
     overflow: hidden;
     border-radius: 8px;
     border: 1px solid #EDEDED;
     box-shadow: 0px 0px 10px 2px #00000022;
-    margin: var(--window-margin) 0 0 0;
+    margin: var(--window-margin);
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
 }

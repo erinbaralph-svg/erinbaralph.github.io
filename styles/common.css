@@ -4,7 +4,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #BDD4DB;
+    background-color: rgb(149, 149, 149);
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -15,12 +15,19 @@ main {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    background-color: #FFFFFFbb;
 }
 
-main p, main h1, main h2 {
-    margin: 0 1rem 1rem 1rem;
+main h1 {
+    background-color: var(--current-page-bg-color);
+    color: #F1FFB1;
+    font-weight: normal;
     padding: 1rem;
-    background-color: var(--main-bg-color);
+}
+
+main p {
+    padding: 1rem;
+    background-color: white;
 }
 
 
