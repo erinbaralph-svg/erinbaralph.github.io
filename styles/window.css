@@ -1,25 +1,33 @@
+:root {
+    --window-margin: 2rem;
+}
+
 .window {
-  background-color: var(--current-page-bg-color);
-  width: 85vw;
-  height: 100svh;
-  overflow: hidden;
-  border-radius: 8px 8px 0 0;
-  border: 1px solid #EDEDED;
-  box-shadow: 0px 0px 10px 2px #00000022;
-  margin: 0 auto;
+    background-color: var(--current-page-bg-color);
+    width: 85vw;
+    height: calc(100svh - var(--window-margin) - 1rem);
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 0px 10px 2px #00000022;
+    margin: var(--window-margin) 0 0 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .window-header {
-  background: linear-gradient(#BFCED9, #EDF2F8);
-  display: flex;
-  align-items: center;
-  gap: 1ch;
-  padding: 1rem 1rem;
-  font-weight: bold;
+    background: linear-gradient(#BFCED9, #EDF2F8);
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    padding: .75rem .75rem;
+    font-weight: bold;
+    border-bottom: 1px solid #00000011;
 }
 
 .window-header > img {
-  width: 30px;
-  height: 30px;
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
 }
 
