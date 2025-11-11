@@ -47,6 +47,7 @@ export function Navbar() {
 
   return (
     <div className="flex gap-1 p-4 bg-white/75">
+      {pathname}
       {availablePages.map((page) => {
         const isActive = pathname.includes(page.href);
         return (
@@ -60,6 +61,7 @@ export function Navbar() {
             )}
             href={page.href}
           >
+            {page.href}
             <div
               className={clsx(
                 "flex flex-col justify-center items-center gap-1 px-4 h-full aspect-square",
