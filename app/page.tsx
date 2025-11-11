@@ -1,4 +1,9 @@
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About - Erin Ralph",
+};
 
 export default function Home() {
   return (
@@ -36,8 +41,8 @@ export default function Home() {
             />
           </div>
           <p className="italic text-sm">
-            Picture of me working the needlework booth at the Lynde House Museum's
-            Annual History In The Park.
+            Picture of me working the needlework booth at the Lynde House
+            Museum's Annual History In The Park.
           </p>
         </div>
       </div>

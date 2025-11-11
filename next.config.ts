@@ -5,6 +5,14 @@ const nextConfig = {
     unoptimized: true,
   },
   devIndicators: false,
+  async rewrites() {
+    return [
+      {
+        source: "/index",
+        destination: "/",
+      },
+    ];
+  },
 };
 
 export default nextConfig;
