@@ -2,11 +2,8 @@
 
 import Image from "next/image";
 import { clsx } from "clsx";
-import { usePathname } from "next/navigation";
 
-export function Navbar() {
-  const pathname = usePathname();
-
+export function Navbar({ currentPageHref }: { currentPageHref: string }) {
   const availablePages: { href: string; name: string; icon: string }[] = [
     {
       href: "/index",
@@ -48,7 +45,8 @@ export function Navbar() {
   return (
     <div className="flex gap-1 p-4 bg-white/75">
       {availablePages.map((page) => {
-        const isActive = pathname.includes(page.href);
+        const isActive = currentPageHref === page.href;
+
         return (
           <a
             key={page.href}
