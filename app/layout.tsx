@@ -14,12 +14,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-[url(/img/wallpaper.jpg)] bg-cover bg-no-repeat bg-fit bg-fixed flex items-center justify-center overflow-x-hidden">
-        <div className="w-full flex justify-center">
+      <body className="bg-[url(/img/wallpaper.jpg)] bg-cover bg-no-repeat bg-fit bg-fixed flex justify-center overflow-y-auto">
+        <div className="w-full flex justify-center h-fit">
           <div className="rounded-lg border border-gray-300 shadow-lg flex flex-col w-full m-8 overflow-hidden">
             <div className="bg-gradient-to-b from-blue-300 to-blue-100 flex items-center gap-2 px-3 py-3 font-bold border-b border-gray-300 border-opacity-7">
               <Image
-                src="/img/icons/dish.png"
+                src="/img/dish.png"
                 alt="Satellite dish icon"
                 width={32}
                 height={32}

@@ -66,7 +66,7 @@ export function Navbar({ currentPageHref }: { currentPageHref: string }) {
               )}
             >
               <Image
-                src={`/img/icons/${page.icon}`}
+                src={`/img/navbar/${page.icon}`}
                 alt="About icon"
                 width={32}
                 height={32}
