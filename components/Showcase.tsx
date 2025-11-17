@@ -30,10 +30,8 @@ export function Showcase({
   return (
     <>
       <h1
-        className={clsx(
-          "text-yellow-100 text-2xl p-4",
-          `bg-[${headerBackgroundColor}]`
-        )}
+        className={"text-yellow-100 text-2xl p-4"}
+        style={{ backgroundColor: headerBackgroundColor }}
       >
         {title}
       </h1>
