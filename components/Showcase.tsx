@@ -35,7 +35,7 @@ export function Showcase({
       >
         {title}
       </h1>
-      <div className="m-4 flex gap-4">
+      <div className="m-4 flex flex-col sm:flex-row gap-4">
         <div className="w-full flex flex-col gap-1">
           <div className="flex gap-1">
             <div className="w-full">
@@ -58,7 +58,7 @@ export function Showcase({
             ))}
           </div>
         </div>
-        <div className="w-4/5">
+        <div className="w-full sm:w-4/5">
           <ImageCarousel images={images} />
         </div>
       </div>
@@ -73,10 +73,10 @@ function ImageCarousel({ images }: { images: ImageData[] }) {
   if (!currentImage) return <p>An error occurred</p>;
 
   return (
-    <div className="relative flex w-full h-full gap-1">
+    <div className="relative flex flex-col sm:flex-row w-full h-full gap-1">
       <div className="flex flex-col w-full h-full gap-1">
         <div className="bg-white w-full h-full border-1 border-black/30 p-4 flex flex-col gap-3">
-          <div className="relative w-full h-full">
+          <div className="relative w-full h-96 sm:h-full">
             <Image
               src={currentImageSrc}
               alt={
@@ -100,8 +100,8 @@ function ImageCarousel({ images }: { images: ImageData[] }) {
         className={clsx(
           "p-4 bg-white min-w-fit border-1 border-black/30",
           images.length <= 4
-            ? "flex flex-col gap-2 h-fit"
-            : "grid grid-cols-2 justify-items-start h-fit gap-2"
+            ? "flex justify-center sm:justify-start sm:flex-col gap-2 h-fit"
+            : "grid grid-cols-3 sm:grid-cols-2 justify-items-center sm:justify-items-start h-fit gap-2"
         )}
       >
         {images.map((img) => (

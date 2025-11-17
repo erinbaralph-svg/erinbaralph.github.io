@@ -43,7 +43,7 @@ export function Navbar({ currentPageHref }: { currentPageHref: string }) {
   ] as const;
 
   return (
-    <div className="flex gap-1 p-4 bg-white/75">
+    <div className="grid grid-cols-2 sm:flex gap-1 p-2 sm:p-4 bg-white/75">
       {availablePages.map((page) => {
         const isActive = currentPageHref === page.href;
 
@@ -51,7 +51,7 @@ export function Navbar({ currentPageHref }: { currentPageHref: string }) {
           <a
             key={page.href}
             className={clsx(
-              "flex flex-col items-center justify-center w-40 h-32 border-4",
+              "flex sm:flex-col items-center sm:justify-center w-full h-18 sm:w-40 sm:h-32 border-4",
               isActive
                 ? "border-t-black/20 border-r-white/60 border-b-white/60 border-l-black/20 bg-black/5"
                 : "border-t-white/60 border-r-black/20 border-b-black/20 border-l-white/60"
@@ -60,9 +60,9 @@ export function Navbar({ currentPageHref }: { currentPageHref: string }) {
           >
             <div
               className={clsx(
-                "flex flex-col justify-center items-center gap-1 px-4 h-full aspect-square",
+                "flex sm:flex-col sm:justify-center items-center gap-2 sm:gap-1 px-2 sm:px-4 w-full sm:w-fit h-full aspect-square",
                 isActive &&
-                  "outline outline-black outline-dashed -outline-offset-8"
+                  "outline-1 outline-black outline-dashed -outline-offset-4 sm:-outline-offset-8"
               )}
             >
               <Image
@@ -70,7 +70,7 @@ export function Navbar({ currentPageHref }: { currentPageHref: string }) {
                 alt="About icon"
                 width={32}
                 height={32}
-                className="w-16 h-16 pixelated object-contain"
+                className="size-8 sm:size-16 pixelated object-contain"
               />
               <p
                 className={clsx(

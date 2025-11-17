@@ -39,7 +39,7 @@ export default function CertificationsPage() {
         <h1 className="text-yellow-100 text-2xl p-4 bg-[#BD9101]">
           Certifications
         </h1>
-        <div className="mx-auto mt-6 mb-16 grid grid-cols-2 justify-items-center items-start p-4 gap-4 w-fit">
+        <div className="mx-auto sm:mt-6 mb-16 grid grid-cols-1 sm:grid-cols-2 justify-items-center items-start p-4 gap-4 w-fit">
           {certifications.map((e, index) => (
             <Badge key={index} {...e} />
           ))}
