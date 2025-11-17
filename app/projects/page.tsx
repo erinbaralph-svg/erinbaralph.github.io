@@ -1,8 +1,11 @@
-"use client";
-
 import { Navbar } from "../Navbar";
 import { Showcase, type ShowcaseData } from "@/components/Showcase";
 import NotFound from "../not-found";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects - Erin Ralph",
+};
 
 const projects: ShowcaseData[] = [];
 

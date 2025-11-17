@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { Navbar } from "../Navbar";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Resume - Erin Ralph",
+};
 
 export default function ResumePage() {
   return (

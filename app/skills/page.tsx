@@ -1,8 +1,11 @@
-"use client";
-
 import { Navbar } from "../Navbar";
 import { Badge, type BadgeData } from "@/components/Badge";
 import NotFound from "../not-found";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Skills - Erin Ralph",
+};
 
 const skills: BadgeData[] = [];
 

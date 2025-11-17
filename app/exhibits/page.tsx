@@ -1,7 +1,10 @@
-"use client";
-
+import { Metadata } from "next";
 import { Navbar } from "../Navbar";
 import { Showcase, type ShowcaseData } from "@/components/Showcase";
+
+export const metadata: Metadata = {
+  title: "Exhibits - Erin Ralph",
+};
 
 const exhibits: ShowcaseData[] = [
   {
@@ -63,7 +66,7 @@ const exhibits: ShowcaseData[] = [
   },
 ];
 
-export default function ExhibitsPage() {
+export default async function ExhibitsPage() {
   return (
     <>
       <Navbar currentPageHref="/exhibits" />
