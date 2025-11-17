@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-[url(/img/wallpaper.jpg)] bg-cover bg-no-repeat bg-fit bg-fixed flex justify-center overflow-y-auto">
+      <body className="bg-[url(/img/wallpaper.avif)] bg-cover bg-no-repeat bg-fit bg-fixed flex justify-center overflow-y-auto">
         <div className="w-full flex justify-center h-fit">
           <div className="rounded-lg border border-gray-300 shadow-lg flex flex-col w-full m-2 sm:m-8 overflow-hidden">
             {children}

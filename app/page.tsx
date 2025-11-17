@@ -41,7 +41,7 @@ export default function AboutPage() {
           <div className="w-full h-full bg-white p-4 gap-3 flex flex-col items-center justify-center border-1 border-black/30">
             <div className="w-full h-54 md:h-full relative">
               <Image
-                src="/img/about/erin.webp"
+                src="/img/about/erin.avif"
                 alt="Picture of Erin working the needlework booth at the Lynde House Museum's Annual History In The Park."
                 fill={true}
                 className="object-cover"
