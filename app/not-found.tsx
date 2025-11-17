@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function NotFound() {
   return (
-    <main className="absolute inset-0 h-svh w-screen bg-[url(/img/wallpaper.jpg)] bg-cover bg-no-repeat bg-fit bg-fixed">
+    <main className="absolute inset-0 h-svh w-screen bg-[url(/img/wallpaper.avif)] bg-cover bg-no-repeat bg-fit bg-fixed">
       <div className="w-full h-full text-white bg-[#0000AC]/50 font-mono flex flex-col justify-center items-center">
         <h1 className="bg-white text-[#0000AC] px-2 py-1 mb-4">
           404: page not found :(
