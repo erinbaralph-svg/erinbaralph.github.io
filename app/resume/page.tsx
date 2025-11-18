@@ -11,7 +11,7 @@ export default function ResumePage() {
   return (
     <>
       <Navbar currentPageHref="/resume" />
-      <main className="h-svh bg-[#552500] p-4 flex flex-col items-center gap-4">
+      <main className="pb-20 sm:h-svh bg-[#552500] p-4 flex flex-col items-center gap-4">
         <Link
           href="/ErinRalph.pdf"
           download={true}
@@ -28,9 +28,12 @@ export default function ResumePage() {
         </Link>
         <embed
           src="/ErinRalph.pdf"
-          className="w-full h-full"
+          className="w-full h-full hidden sm:block"
           type="application/pdf"
         />
+        <p className="block sm:hidden text-white text-center">
+          (PDF Preview is not available on mobile. Please download to view.)
+        </p>
       </main>
     </>
   );

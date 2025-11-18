@@ -8,7 +8,7 @@ export type BadgeData = {
 
 export function Badge({ title, link, iconSrc }: BadgeData) {
   return (
-    <div className="border-2 border-t-white/30 border-l-white/30 border-b-black/30 border-r-black/30 p-1 flex justify-start items-center gap-4 w-full p-4">
+    <div className="border-3 border-t-white/30 border-l-white/30 border-b-black/30 border-r-black/30 p-1 flex justify-start items-center gap-4 w-full p-4">
         <Image
           src={iconSrc}
           alt={`Icon for ${title}`}

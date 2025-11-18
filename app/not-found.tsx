@@ -12,7 +12,7 @@ export default function NotFound() {
         <h1 className="bg-white text-[#0000AC] px-2 py-1 mb-4">
           404: page not found :(
         </h1>
-        <p className="mb-8 max-w-[45ch] text-center">
+        <p className="mx-4 mb-8 max-w-[45ch] text-center">
           This page does not exist or is being updated. Click to go back to
           home.
         </p>
