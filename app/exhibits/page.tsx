@@ -66,18 +66,6 @@ const exhibits: ShowcaseData[] = [
 ];
 
 export default function ExhibitsPage() {
-  const [overlayImageSrc, setOverlayImageSrc] = useState<string | null>(null);
-
-  useEffect(() => {
-    if (overlayImageSrc) {
-      document.body.style.overflowY = "hidden";
-      document.body.style.touchAction = "pinch-zoom";
-    } else {
-      document.body.style.overflowY = "auto";
-      document.body.style.touchAction = "auto";
-    }
-  }, [overlayImageSrc]);
-
   return (
     <>
       <Navbar currentPageHref="/exhibits" />
@@ -87,27 +75,11 @@ export default function ExhibitsPage() {
             <Showcase
               key={index}
               headerBackgroundColor={"#730002"}
-              setOverlayImageSrc={setOverlayImageSrc}
               {...e}
             />
           ))}
         </div>
       </main>
-      {overlayImageSrc && (
-        <div
-          className="fixed inset-0 h-full w-full bg-black/80 flex items-center justify-center cursor-zoom-out"
-          onClick={() => setOverlayImageSrc(null)}
-        >
-          <div className="relative w-9/10 h-9/10">
-            <Image
-              src={overlayImageSrc}
-              alt={"image overlay"}
-              fill={true}
-              className="object-contain"
-            />
-          </div>
-        </div>
-      )}
     </>
   );
 }
