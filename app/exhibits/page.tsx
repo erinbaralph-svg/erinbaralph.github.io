@@ -1,10 +1,9 @@
-import { Metadata } from "next";
+"use client";
+
+import Image from "next/image";
 import { Navbar } from "../Navbar";
 import { Showcase, type ShowcaseData } from "@/components/Showcase";
-
-export const metadata: Metadata = {
-  title: "Exhibits - Erin Ralph",
-};
+import { useEffect, useState } from "react";
 
 const exhibits: ShowcaseData[] = [
   {
@@ -66,17 +65,49 @@ const exhibits: ShowcaseData[] = [
   },
 ];
 
-export default async function ExhibitsPage() {
+export default function ExhibitsPage() {
+  const [overlayImageSrc, setOverlayImageSrc] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (overlayImageSrc) {
+      document.body.style.overflowY = "hidden";
+      document.body.style.touchAction = "pinch-zoom";
+    } else {
+      document.body.style.overflowY = "auto";
+      document.body.style.touchAction = "auto";
+    }
+  }, [overlayImageSrc]);
+
   return (
     <>
       <Navbar currentPageHref="/exhibits" />
       <main className="bg-[#D5D1C8] overflow-y-auto flex flex-col flex-grow">
         <div className="flex flex-col">
           {exhibits.map((e, index) => (
-            <Showcase key={index} headerBackgroundColor={"#730002"} {...e} />
+            <Showcase
+              key={index}
+              headerBackgroundColor={"#730002"}
+              setOverlayImageSrc={setOverlayImageSrc}
+              {...e}
+            />
           ))}
         </div>
       </main>
+      {overlayImageSrc && (
+        <div
+          className="fixed inset-0 h-full w-full bg-black/80 flex items-center justify-center cursor-zoom-out"
+          onClick={() => setOverlayImageSrc(null)}
+        >
+          <div className="relative w-9/10 h-9/10">
+            <Image
+              src={overlayImageSrc}
+              alt={"image overlay"}
+              fill={true}
+              className="object-contain"
+            />
+          </div>
+        </div>
+      )}
     </>
   );
 }

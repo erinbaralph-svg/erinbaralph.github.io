@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
 import clsx from "clsx";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, Dispatch, SetStateAction } from "react";
 
 export type ImageData = {
   src: string;
@@ -19,6 +19,7 @@ export type ShowcaseData = {
 
 type ShowcaseProps = ShowcaseData & {
   headerBackgroundColor: string;
+  setOverlayImageSrc: Dispatch<SetStateAction<string | null>>;
 };
 
 export function Showcase({
@@ -28,6 +29,7 @@ export function Showcase({
   location,
   descriptionParagraphs,
   images,
+  setOverlayImageSrc,
 }: ShowcaseProps) {
   return (
     <>
@@ -61,14 +63,23 @@ export function Showcase({
           </div>
         </div>
         <div className="w-full md:w-4/5">
-          <ImageCarousel images={images} />
+          <ImageCarousel
+            images={images}
+            setOverlayImageSrc={setOverlayImageSrc}
+          />
         </div>
       </div>
     </>
   );
 }
 
-function ImageCarousel({ images }: { images: ImageData[] }) {
+function ImageCarousel({
+  images,
+  setOverlayImageSrc,
+}: {
+  images: ImageData[];
+  setOverlayImageSrc: Dispatch<SetStateAction<string | null>>;
+}) {
   const [currentImageSrc, setCurrentImageSrc] = useState(images[0]?.src || "");
   const currentImage = images.find((img) => img.src === currentImageSrc);
 
@@ -87,8 +98,9 @@ function ImageCarousel({ images }: { images: ImageData[] }) {
                   : "carousel image"
               }
               fill={true}
-              className="object-contain"
-              priority
+              className="object-contain cursor-zoom-in"
+              priority={true}
+              onClick={() => setOverlayImageSrc(currentImageSrc)}
             />
           </div>
           <div className="flex w-full justify-center items-center gap-1">
@@ -110,7 +122,7 @@ function ImageCarousel({ images }: { images: ImageData[] }) {
           <button
             key={img.src}
             onClick={() => setCurrentImageSrc(img.src)}
-            className={`relative w-20 h-20 overflow-hidden border-2 transition-all ${
+            className={`relative w-20 h-20 overflow-hidden border-2 transition-all cursor-pointer ${
               currentImageSrc === img.src
                 ? "border-black"
                 : "border-transparent hover:border-gray-400"
