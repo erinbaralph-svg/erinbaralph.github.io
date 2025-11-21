@@ -11,8 +11,8 @@ export type ImageData = {
 
 export type ShowcaseData = {
   title: string;
-  date: string;
-  location: string;
+  date?: string;
+  location?: string;
   descriptionParagraphs: string[];
   images: ImageData[];
 };
@@ -51,20 +51,26 @@ export function Showcase({
       </h1>
       <div className="m-4 flex flex-col md:flex-row gap-4">
         <div className="w-full flex flex-col gap-1">
-          <div className="flex gap-1">
-            <div className="w-full">
-              <p className="font-bold">Location</p>
-              <p className="px-1 py-px bg-white w-full border-1 border-black/30">
-                {location}
-              </p>
+          {(location || date) && (
+            <div className="flex gap-1">
+              {location && (
+                <div className="w-full">
+                  <p className="font-bold">Location</p>
+                  <p className="px-1 py-px bg-white w-full border-1 border-black/30">
+                    {location}
+                  </p>
+                </div>
+              )}
+              {date && (
+                <div className="min-w-fit">
+                  <p className="font-bold">Date</p>
+                  <p className="px-1 py-px pe-10 bg-white min-w-fit line-clamp-1 border-1 border-black/30">
+                    {date}
+                  </p>
+                </div>
+              )}
             </div>
-            <div className="min-w-fit">
-              <p className="font-bold">Date</p>
-              <p className="px-1 py-px pe-10 bg-white min-w-fit line-clamp-1 border-1 border-black/30">
-                {date}
-              </p>
-            </div>
-          </div>
+          )}
           <p className="font-bold">Description</p>
           <div className="bg-white px-2 py-1 flex flex-col gap-2 border-1 border-black/30">
             {descriptionParagraphs.map((s, index) => (
