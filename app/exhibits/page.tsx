@@ -1,9 +1,10 @@
-"use client";
-
-import Image from "next/image";
+import { Metadata } from "next";
 import { Navbar } from "../Navbar";
 import { Showcase, type ShowcaseData } from "@/components/Showcase";
-import { useEffect, useState } from "react";
+
+export const metadata: Metadata = {
+  title: "Exhibits - Erin Ralph",
+};
 
 const exhibits: ShowcaseData[] = [
   {
