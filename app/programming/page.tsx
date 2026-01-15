@@ -50,6 +50,82 @@ const programming: ShowcaseData[] = [
         caption: "",
       },
     ],
+  },  
+  {
+    title: "Adult Programming",
+    date: "2022-2025",
+    location: "",
+    descriptionParagraphs: [
+      "I also have extensive experience delivering adult programming. At the Uxbridge Historical Centre, I led workshops such as paint nights and linocut printmaking sessions, and assisted with the planning, marketing, and day-of delivery of these events. At St. Andrew's Community Foodbank, I planned, budgeted, and facilitated weekly drop-in programs providing refreshments for food bank clients, as well as volunteer-focused events including charity book sales, Canada Day celebrations, and carnival-style activities. More recently, I have supported a range of adult programming at the Lynde House Museum, including Christmas tours, Victorian teas, and regular guided tours.",
+    ],
+    images: [
+      {
+        src: "/img/programming/children/vbcstmarks.avif",
+        caption: "",
+      },
+      {
+        src: "/img/programming/children/summercampuhc.avif",
+        caption: "",
+      },
+      {
+        src: "/img/programming/children/zoo2youuhc.avif",
+        caption: "",
+      },
+      {
+        src: "/img/programming/children/kidsclub.avif",
+        caption: "",
+      },
+      {
+        src: "/img/programming/children/kidsclub2.avif",
+        caption: "",
+      },
+      {
+        src: "/img/programming/children/kidsclub3.avif",
+        caption: "",
+      },
+      {
+        src: "/img/programming/children/lemonadefoodbank.avif",
+        caption: "",
+      },
+    ],
+  }, 
+  {
+    title: "Large Events",
+    date: "2022-2025",
+    location: "",
+    descriptionParagraphs: [
+      "Throughout my career to date, I have been involved in budgeting, planning, and delivering large-scale events for audiences of 100+ attendees. For several years, I served on the Board of Directors of the Ontario Youth Parliament as Director of Youth Programs, where I helped plan annual four-day conferences attended by hundreds of participants. My responsibilities included program development, event budgeting, and booking hotels and accommodations. At the Uxbridge Historical Centre, I supported the implementation of large public events such as Kite Day and the Lucy Maud Montgomery Teas, as well as event setup for weddings and private functions. Additionally, at St. Andrew’s Community Food Bank, I budgeted for, procured supplies for, planned, and delivered two large “Summer Fun Fest” events serving both the wider community and food bank patrons.",
+    ],
+    images: [
+      {
+        src: "/img/programming/children/vbcstmarks.avif",
+        caption: "",
+      },
+      {
+        src: "/img/programming/children/summercampuhc.avif",
+        caption: "",
+      },
+      {
+        src: "/img/programming/children/zoo2youuhc.avif",
+        caption: "",
+      },
+      {
+        src: "/img/programming/children/kidsclub.avif",
+        caption: "",
+      },
+      {
+        src: "/img/programming/children/kidsclub2.avif",
+        caption: "",
+      },
+      {
+        src: "/img/programming/children/kidsclub3.avif",
+        caption: "",
+      },
+      {
+        src: "/img/programming/children/lemonadefoodbank.avif",
+        caption: "",
+      },
+    ],
   },
 ];
 

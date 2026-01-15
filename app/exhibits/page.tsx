@@ -64,6 +64,36 @@ const exhibits: ShowcaseData[] = [
       },
     ],
   },
+  {
+    title: "Chains of Memory",
+    date: "December 2025",
+    location: "Peterborough Museum and Archives",
+    descriptionParagraphs: [
+      "This mini exhibit was conceived, designed, and executed independently from start to finish. I developed the interpretive concept, designed and printed the primary information panel, and created a museum-safe mount to support and protect the object on display. I also proposed and implemented an interactive element to encourage visitor engagement and deepen interpretation. The completed mini exhibit was presented as part of a larger exhibition at the Peterborough Museum & Archives, where it contributed to the overall narrative of the show while functioning as a fully realized, self-contained display.",
+    ],
+    images: [
+      {
+        src: "/img/exhibits/house-home/HouseandHome.png",
+        caption: "Artifact text, written by me!",
+      },
+      {
+        src: "/img/exhibits/house-home/HouseandHome2.png",
+        caption: "Dining room table display",
+      },
+      {
+        src: "/img/exhibits/house-home/HouseandHome4.png",
+        caption: "Bedroom display",
+      },
+      {
+        src: "/img/exhibits/house-home/HouseandHome5.png",
+        caption: "Close up of artifact and text",
+      },
+      {
+        src: "/img/exhibits/house-home/HouseandHome6.png",
+        caption: "Photo gallery wall",
+      },
+    ],
+  },
 ];
 
 export default function ExhibitsPage() {
