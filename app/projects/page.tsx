@@ -16,7 +16,7 @@ const projects: ShowcaseData[] = [
       "As Museum Preparator at the Uxbridge Historical Centre, I completed extensive site maintenance and preparation work, including painting key exterior structures, adding high-visibility accessibility markings, and maintaining large farm equipment to ensure visitor safety and artifact preservation.",
     ],
     images: [
-  
+      {
         src: "/img/programming/children/vbcstmarks.avif",
         caption: "",
       },
@@ -43,4 +43,22 @@ const projects: ShowcaseData[] = [
       {
         src: "/img/programming/children/lemonadefoodbank.avif",
         caption: "",
-      },]
+      },
+    ],
+  },
+];
+
+export default function ProjectsPage() {
+  return (
+    <>
+      <Navbar currentPageHref="/projects" />
+      <main className="bg-[#D5D1C8] overflow-y-auto flex flex-col flex-grow">
+        <div className="flex flex-col">
+          {projects.map((e, index) => (
+            <Showcase key={index} headerBackgroundColor={"#075016"} {...e} />
+          ))}
+        </div>
+      </main>
+    </>
+  );
+}
