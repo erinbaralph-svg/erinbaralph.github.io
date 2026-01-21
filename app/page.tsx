@@ -11,13 +11,13 @@ export default function AboutPage() {
   return (
     <>
       <Navbar currentPageHref="/index" />
-      <Whiteboard className="flex flex-col flex-grow m-1 mb-2">
+      <Whiteboard className="flex flex-col mx-1 mb-2">
         <div
           style={{ fontFamily: "Arial" }}
-          className="flex flex-col md:flex-row gap-10"
+          className="flex flex-col lg:flex-row gap-10 items-center lg:justify-center lg:mb-10"
         >
           <div className="flex flex-col gap-4 text-lg leading-6 max-w-[50ch]">
-            <h1 className="text-2xl font-bold mb-4">Get To Know Me!</h1>
+            <h1 className="text-2xl font-bold">Get To Know Me!</h1>
             <p>
               My name is Erin Ralph. I am an emerging museum professional
               interested in museum administration, fundraising, and project
@@ -39,8 +39,8 @@ export default function AboutPage() {
               have worked on!
             </p>
           </div>
-          <div className="w-full bg-white flex gap-2 flex-col items-center">
-            <div className="w-full h-54 sm:h-68 md:h-full relative">
+          <div className="w-fit flex gap-2 flex-col items-center">
+            <div className="w-full h-54 sm:h-68 lg:h-96 relative">
               <Image
                 src="/img/about/erin.avif"
                 alt="Picture of Erin working the needlework booth at the Lynde House Museum's Annual History In The Park."

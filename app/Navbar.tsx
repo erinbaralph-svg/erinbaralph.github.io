@@ -105,7 +105,7 @@ export function Navbar({ currentPageHref }: { currentPageHref: string }) {
                 />
                 <p
                   className={clsx(
-                    "truncate text-xl sm:text-lg",
+                    "truncate text-lg",
                     isActive &&
                       "first-letter:underline first-letter:underline-offset-2"
                   )}

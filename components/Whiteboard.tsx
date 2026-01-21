@@ -12,11 +12,11 @@ export async function Whiteboard({
     <div
       className={clsx(
         className,
-        "border-2 border-t-[#808080] border-l-[#808080] border-b-white border-r-white"
+        "border-2 border-t-[#808080] border-l-[#808080] border-b-white border-r-white bg-white"
       )}
     >
       <div
-        className="p-6 bg-white border-2 border-t-black border-l-black border-b-[#C1C1C1] border-r-[#C1C1C1]"
+        className="p-6 border-2 border-t-black border-l-black border-b-[#C1C1C1] border-r-[#C1C1C1]"
       >
         {children}
       </div>
