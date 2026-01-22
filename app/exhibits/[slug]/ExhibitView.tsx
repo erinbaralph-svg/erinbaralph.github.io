@@ -26,12 +26,10 @@ export function ExhibitView({ articleData }: { articleData: ArticleData }) {
       const scrollbarWidth =
         window.innerWidth - document.documentElement.clientWidth;
       document.body.style.paddingRight = `${scrollbarWidth}px`;
-      document.body.style.overflowY = "hidden";
-      document.body.style.touchAction = "pinch-zoom";
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflowY = "auto";
+      document.body.style.overflow = "auto";
       document.body.style.paddingRight = "";
-      document.body.style.touchAction = "auto";
     }
   }, [overlayImageSrc]);
 
