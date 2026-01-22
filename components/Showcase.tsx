@@ -142,11 +142,12 @@ function ImageCarousel({
             <button
               key={img.src}
               onClick={() => setCurrentImageSrc(img.src)}
-              className={`relative w-20 h-20 overflow-hidden border-2 transition-all cursor-pointer ${
+              className={clsx(
+                "relative w-20 h-20 overflow-hidden border-2 transition-all cursor-pointer",
                 currentImageSrc === img.src
                   ? "border-black"
                   : "border-transparent hover:border-gray-400"
-              }`}
+              )}
             >
               <Image
                 src={img.src}

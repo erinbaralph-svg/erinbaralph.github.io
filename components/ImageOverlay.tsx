@@ -17,7 +17,7 @@ export function ImageOverlay({
           src={image.src}
           alt={image.caption}
           draggable={false}
-          className={`select-none object-contain h-10/12 sm:h-full`}
+          className={"select-none object-contain h-10/12 sm:h-full"}
           loading="lazy"
         />
         <p className="text-white text-xl max-w-[70ch]">{image.caption}</p>
@@ -25,4 +25,3 @@ export function ImageOverlay({
     </div>
   );
 }
-

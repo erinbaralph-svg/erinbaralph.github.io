@@ -1,4 +1,6 @@
+import clsx from "clsx";
 import Image from "next/image";
+import Link from "next/link";
 
 export type BadgeData = {
   title: string;
@@ -8,20 +10,25 @@ export type BadgeData = {
 
 export function Badge({ title, link, iconSrc }: BadgeData) {
   return (
-    <div className="border-3 border-t-white/30 border-l-white/30 border-b-black/30 border-r-black/30 p-1 flex justify-start items-center gap-4 w-full p-4">
-        <Image
-          src={iconSrc}
-          alt={`Icon for ${title}`}
-          width={48}
-          height={48}
-          className="pixelated shrink-0 self-start sm:self-auto"
-        />
-        {/* {link && ( */}
-        {/*   <Link href={link} className="underline text-blue-700"> */}
-        {/*     download */}
-        {/*   </Link> */}
-        {/* )} */}
-      <p className="line-clamp-3 w-[30ch]">{title}</p>
-    </div>
+    <Link
+      href={link ?? ""}
+      className="p-1 flex justify-start items-center gap-4 w-full p-4 border-4 border-t-[#EAEAEA] border-l-[#EAEAEA] border-r-[#A8A8A8] border-b-[#A8A8A8]"
+    >
+      <Image
+        src={iconSrc}
+        alt={`Icon for ${title}`}
+        width={48}
+        height={48}
+        className="pixelated shrink-0 self-start sm:self-auto"
+      />
+      <p
+        className={clsx(
+          link && "text-[#0000EE] underline",
+          "line-clamp-3 w-[30ch]"
+        )}
+      >
+        {title}
+      </p>
+    </Link>
   );
 }

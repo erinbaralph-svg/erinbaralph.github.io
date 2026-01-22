@@ -48,7 +48,7 @@ export default function AboutPage() {
                 className="object-contain"
               />
             </div>
-            <p className="italic text-sm">
+            <p className="italic text-sm max-w-[60ch]">
               Picture of me working the needlework booth at the Lynde House
               Museum's Annual History In The Park.
             </p>
