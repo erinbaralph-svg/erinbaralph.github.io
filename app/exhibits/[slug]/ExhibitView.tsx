@@ -41,7 +41,7 @@ export function ExhibitView({ articleData }: { articleData: ArticleData }) {
       <Whiteboard className="mx-1 mb-2">
         <div
           style={{ fontFamily: "Arial" }}
-          className="m-10 flex flex-col lg:flex-row gap-10 items-center lg:items-start lg:justify-center lg:mb-10"
+          className="m-6 sm:m-10 flex flex-col lg:flex-row gap-10 items-center lg:items-start lg:justify-center lg:mb-10"
         >
           <div className="flex flex-col gap-4 text-lg max-w-[50ch]">
             <Link href="/exhibits" className="text-[#0000EE]">
