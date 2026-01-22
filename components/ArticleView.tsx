@@ -7,7 +7,13 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ImageOverlay } from "@/components/ImageOverlay";
 
-export function ExhibitView({ articleData }: { articleData: ArticleData }) {
+export function ArticleView({
+  articleData,
+  urlPrefix,
+}: {
+  articleData: ArticleData;
+  urlPrefix: string;
+}) {
   const [overlayImageSrc, setOverlayImageSrc] = useState<string | null>(null);
 
   useEffect(() => {
@@ -35,17 +41,17 @@ export function ExhibitView({ articleData }: { articleData: ArticleData }) {
 
   return (
     <>
-      <Navbar currentPageHref="/exhibits" />
+      <Navbar currentPageHref={`/${urlPrefix}`} />
       <Whiteboard className="mx-1 mb-2">
         <div
           style={{ fontFamily: "Arial" }}
           className="m-6 sm:m-10 flex flex-col lg:flex-row gap-10 items-center lg:items-start lg:justify-center lg:mb-10"
         >
           <div className="flex flex-col gap-4 text-lg max-w-[50ch]">
-            <Link href="/exhibits" className="text-[#0000EE]">
+            <Link href={`/${urlPrefix}`} className="text-[#0000EE]">
               ←{" "}
               <span className="underline underline-offset-2">
-                back to exhibits
+                {`back to ${urlPrefix}`}
               </span>
             </Link>
             <h1 className="text-2xl font-bold">{articleData.title}</h1>

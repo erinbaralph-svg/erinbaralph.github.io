@@ -14,7 +14,7 @@ export default function ExhibitsPage() {
       <main className="p-2 pb-4 overflow-y-auto flex flex-col flex-grow">
         <div className="flex flex-wrap justify-center md:justify-start gap-2">
           {exhibits.map((e, index) => (
-            <ArticleWindow key={index} articleData={e} />
+            <ArticleWindow key={index} articleData={e} urlPrefix="exhibits" />
           ))}
         </div>
       </main>

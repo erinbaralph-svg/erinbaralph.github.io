@@ -1,24 +1,24 @@
 import { notFound } from "next/navigation";
-import { exhibits } from "../exhibitsData";
+import { projects } from "../projectsData";
 import { ArticleView } from "@/components/ArticleView";
 
 export async function generateStaticParams() {
-  return exhibits.map((e) => ({
+  return projects.map((e) => ({
     slug: e.id,
   }));
 }
 
-export default async function ExhibitViewPage({
+export default async function ProjectViewPage({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const articleData = exhibits.filter((e) => e.id === slug)[0];
+  const articleData = projects.filter((e) => e.id === slug)[0];
 
   if (!articleData) {
     notFound();
   }
 
-  return <ArticleView articleData={articleData} urlPrefix={"exhibits"} />;
+  return <ArticleView articleData={articleData} urlPrefix={"projects"} />;
 }

@@ -1,64 +1,24 @@
-import { Navbar } from "../Navbar";
-import { Showcase, type ShowcaseData } from "@/components/Showcase";
-import NotFound from "../not-found";
 import { Metadata } from "next";
+import { Navbar } from "../Navbar";
+import { ArticleWindow } from "@/components/ArticleWindow";
+import { projects } from "./projectsData";
 
 export const metadata: Metadata = {
-  title: "Projects - Erin Ralph",
+  title: "Exhibits - Erin Ralph",
 };
 
-const projects: ShowcaseData[] = [
-  {
-    title: "Museum Preperator",
-    date: "Summer 2023",
-    location: "Uxbridge Historical Centre",
-    descriptionParagraphs: [
-      "As Museum Preparator at the Uxbridge Historical Centre, I completed extensive site maintenance and preparation work, including painting key exterior structures, adding high-visibility accessibility markings, and maintaining large farm equipment to ensure visitor safety and artifact preservation.",
-    ],
-    images: [
-      {
-        src: "/img/programming/children/vbcstmarks.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/summercampuhc.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/zoo2youuhc.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub2.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub3.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/lemonadefoodbank.avif",
-        caption: "",
-      },
-    ],
-  },
-];
-
-export default function ProjectsPage() {
+export default function ExhibitsPage() {
   return (
     <>
       <Navbar currentPageHref="/projects" />
-      <main className="bg-[#D5D1C8] overflow-y-auto flex flex-col flex-grow">
-        <div className="flex flex-col">
+      <main className="p-2 pb-4 overflow-y-auto flex flex-col flex-grow">
+        <div className="flex flex-wrap justify-center md:justify-start gap-2">
           {projects.map((e, index) => (
-            <Showcase key={index} headerBackgroundColor={"#075016"} {...e} />
+            <ArticleWindow key={index} articleData={e} urlPrefix="projects" />
           ))}
         </div>
       </main>
     </>
   );
 }
+

@@ -1,4 +1,4 @@
-import { ArticleData } from "@/types/article";
+import { type ArticleData } from "@/types/article";
 
 export const exhibits: ArticleData[] = [
   {
