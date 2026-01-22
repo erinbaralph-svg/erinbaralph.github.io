@@ -1,12 +1,12 @@
 import clsx from "clsx";
 import { ReactNode } from "react";
 
-export async function Whiteboard({
+export function Whiteboard({
   children,
   className,
 }: {
-  children: ReactNode;
-  className: string;
+  children?: ReactNode;
+  className?: string;
 }) {
   return (
     <div
@@ -16,7 +16,7 @@ export async function Whiteboard({
       )}
     >
       <div
-        className="p-6 border-2 border-t-black border-l-black border-b-[#C1C1C1] border-r-[#C1C1C1]"
+        className="w-full h-full border-2 border-t-black border-l-black border-b-[#C1C1C1] border-r-[#C1C1C1]"
       >
         {children}
       </div>

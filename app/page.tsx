@@ -14,7 +14,7 @@ export default function AboutPage() {
       <Whiteboard className="flex flex-col mx-1 mb-2">
         <div
           style={{ fontFamily: "Arial" }}
-          className="flex flex-col lg:flex-row gap-10 items-center lg:justify-center lg:mb-10"
+          className="m-10 flex flex-col lg:flex-row gap-10 items-center lg:justify-center lg:mb-10"
         >
           <div className="flex flex-col gap-4 text-lg leading-6 max-w-[50ch]">
             <h1 className="text-2xl font-bold">Get To Know Me!</h1>
