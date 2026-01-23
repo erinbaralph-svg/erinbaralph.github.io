@@ -39,7 +39,7 @@ export const exhibits: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/exhibits/mini/HouseandHome.png",
+        src: "/img/exhibits/house-home/HouseandHome.png",
         caption: "Artifact text, written by me!",
       },
       {
