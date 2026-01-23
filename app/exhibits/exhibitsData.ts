@@ -39,7 +39,7 @@ export const exhibits: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/exhibits/house-home/HouseandHome.png",
+        src: "/img/exhibits/mini/HouseandHome.png",
         caption: "Artifact text, written by me!",
       },
       {
@@ -70,25 +70,21 @@ export const exhibits: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/exhibits/house-home/HouseandHome.png",
+        src: "/img/exhibits/mini/minithumbnail.png",
         caption:
-          "Artifact text, written by me!",
+          "",
       },
       {
-        src: "/img/exhibits/house-home/HouseandHome2.png",
-        caption: "Dining room table display",
+        src: "/img/exhibits/mini/mini2.png",
+        caption: "",
       },
       {
-        src: "/img/exhibits/house-home/HouseandHome4.png",
-        caption: "Bedroom display",
+        src: "/img/exhibits/mini/mini3.png",
+        caption: "",
       },
       {
-        src: "/img/exhibits/house-home/HouseandHome5.png",
-        caption: "Close up of artifact and text",
-      },
-      {
-        src: "/img/exhibits/house-home/HouseandHome6.png",
-        caption: "Photo gallery wall",
+        src: "/img/exhibits/mini/Ralph_Mini_2.png",
+        caption: "3D Exhibit Design Made on SketchUp",
       },
     ],
   },
