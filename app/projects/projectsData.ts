@@ -11,15 +11,15 @@ export const projects: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/projects/uxbridge/access.png",
+        src: "/img/projects/uxbridge/access.jpg",
         caption: "",
       },
       {
-        src: "/img/projects/uxbridge/access2.png",
+        src: "/img/projects/uxbridge/access2.jpg",
         caption: "",
       },
       {
-        src: "/img/projects/uxbridge/access3.png",
+        src: "/img/projects/uxbridge/access3.jpg",
         caption: "",
       },
     ],
@@ -33,15 +33,15 @@ export const projects: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/projects/attic/attic.png",
+        src: "/img/projects/attic/attic.jpg",
         caption: "",
       },
       {
-        src: "/img/projects/attic/attic1.png",
+        src: "/img/projects/attic/attic1.jpg",
         caption: "",
       },
       {
-        src: "/img/projects/attic/attic3.png",
+        src: "/img/projects/attic/attic3.jpg",
         caption: "",
       },
     ],
@@ -55,15 +55,15 @@ export const projects: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/projects/archives/archives2.png",
+        src: "/img/projects/archives/archives2.jpg",
         caption: "",
       },
       {
-        src: "/img/projects/archives/archives3.png",
+        src: "/img/projects/archives/archives3.jpg",
         caption: "",
       },
       {
-        src: "/img/projects/archives/archives4.png",
+        src: "/img/projects/archives/archives4.jpg",
         caption: "",
       },
     ],

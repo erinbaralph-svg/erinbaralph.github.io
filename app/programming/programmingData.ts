@@ -16,31 +16,31 @@ export const programming: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/programming/children/vbcstmarks.avif",
+        src: "/img/programming/children/vbcstmarks.jpg",
         caption: "",
       },
       {
-        src: "/img/programming/children/summercampuhc.avif",
+        src: "/img/programming/children/summercampuhc.jpg",
         caption: "",
       },
       {
-        src: "/img/programming/children/zoo2youuhc.avif",
+        src: "/img/programming/children/zoo2youuhc.jpg",
         caption: "",
       },
       {
-        src: "/img/programming/children/kidsclub.avif",
+        src: "/img/programming/children/kidsclub.jpg",
         caption: "",
       },
       {
-        src: "/img/programming/children/kidsclub2.avif",
+        src: "/img/programming/children/kidsclub2.jpg",
         caption: "",
       },
       {
-        src: "/img/programming/children/kidsclub3.avif",
+        src: "/img/programming/children/kidsclub3.jpg",
         caption: "",
       },
       {
-        src: "/img/programming/children/lemonadefoodbank.avif",
+        src: "/img/programming/children/lemonadefoodbank.jpg",
         caption: "",
       },
     ],
@@ -55,19 +55,19 @@ export const programming: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/programming/adult/adult1.png",
+        src: "/img/programming/adult/adult1.jpg",
         caption: "",
       },
       {
-        src: "/img/programming/adult/adult2.png",
+        src: "/img/programming/adult/adult2.jpg",
         caption: "",
       },
       {
-        src: "/img/programming/adult/adult4.png",
+        src: "/img/programming/adult/adult4.jpg",
         caption: "",
       },
       {
-        src: "/img/programming/adult/adult6.png",
+        src: "/img/programming/adult/adult6.jpg",
         caption: "",
       },
     ],
@@ -82,19 +82,19 @@ export const programming: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/programming/events/event2.png",
+        src: "/img/programming/events/event2.jpg",
         caption: "",
       },
       {
-        src: "/img/programming/events/event3.png",
+        src: "/img/programming/events/event3.jpg",
         caption: "",
       },
       {
-        src: "/img/programming/events/event4.png",
+        src: "/img/programming/events/event4.jpg",
         caption: "",
       },
       {
-        src: "/img/programming/events/large1.png",
+        src: "/img/programming/events/large1.jpg",
         caption: "",
       },
     ],

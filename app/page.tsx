@@ -42,7 +42,7 @@ export default function AboutPage() {
           <div className="w-fit flex gap-2 flex-col items-center">
             <div className="w-full h-54 sm:h-68 lg:h-96 relative">
               <Image
-                src="/img/about/erin.avif"
+                src="/img/about/erin.jpg"
                 alt="Picture of Erin working the needlework booth at the Lynde House Museum's Annual History In The Park."
                 fill={true}
                 className="object-contain"

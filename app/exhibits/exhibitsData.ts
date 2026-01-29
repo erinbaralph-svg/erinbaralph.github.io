@@ -18,11 +18,11 @@ export const exhibits: ArticleData[] = [
         caption: "Selfie wall, floral display, and artifact case.",
       },
       {
-        src: "/img/exhibits/lucymaud/LucyMaud2.png",
+        src: "/img/exhibits/lucymaud/LucyMaud2.jpg",
         caption: "Corner display with exhibit panel and hanging art.",
       },
       {
-        src: "/img/exhibits/lucymaud/LucyMaud3.png",
+        src: "/img/exhibits/lucymaud/LucyMaud3.jpg",
         caption: "Upright display and interactive chalkboard",
       },
     ],
@@ -39,23 +39,23 @@ export const exhibits: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/exhibits/house-home/HouseandHome.png",
+        src: "/img/exhibits/house-home/HouseandHome.jpg",
         caption: "Artifact text, written by me!",
       },
       {
-        src: "/img/exhibits/house-home/HouseandHome2.png",
+        src: "/img/exhibits/house-home/HouseandHome2.jpg",
         caption: "Dining room table display",
       },
       {
-        src: "/img/exhibits/house-home/HouseandHome4.png",
+        src: "/img/exhibits/house-home/HouseandHome4.jpg",
         caption: "Bedroom display",
       },
       {
-        src: "/img/exhibits/house-home/HouseandHome5.png",
+        src: "/img/exhibits/house-home/HouseandHome5.jpg",
         caption: "Close up of artifact and text",
       },
       {
-        src: "/img/exhibits/house-home/HouseandHome6.png",
+        src: "/img/exhibits/house-home/HouseandHome6.jpg",
         caption: "Photo gallery wall",
       },
     ],
@@ -70,20 +70,20 @@ export const exhibits: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/exhibits/mini/minithumbnail.png",
+        src: "/img/exhibits/mini/minithumbnail.jpg",
         caption:
           "",
       },
       {
-        src: "/img/exhibits/mini/mini2.png",
+        src: "/img/exhibits/mini/mini2.jpg",
         caption: "",
       },
       {
-        src: "/img/exhibits/mini/mini3.png",
+        src: "/img/exhibits/mini/mini3.jpg",
         caption: "",
       },
       {
-        src: "/img/exhibits/mini/Ralph_Mini_2.png",
+        src: "/img/exhibits/mini/Ralph_Mini_2.jpg",
         caption: "3D Exhibit Design Made on SketchUp",
       },
     ],

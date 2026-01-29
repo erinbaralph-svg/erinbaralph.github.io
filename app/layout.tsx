@@ -20,7 +20,7 @@ export default function RootLayout({
       <body
         className={clsx(
           font.className,
-          "bg-[url(/img/wallpaper.avif)] bg-blend-darken bg-black/20 bg-cover bg-no-repeat bg-fit bg-fixed flex justify-center overflow-y-auto"
+          "bg-[url(/img/wallpaper.jpg)] bg-blend-darken bg-black/20 bg-cover bg-no-repeat bg-fit bg-fixed flex justify-center overflow-y-auto"
         )}
       >
         <div className="w-full flex justify-center h-fit">
