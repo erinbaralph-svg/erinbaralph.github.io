@@ -55,31 +55,19 @@ export const programming: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/programming/children/vbcstmarks.avif",
+        src: "/img/programming/adult/adult1.png",
         caption: "",
       },
       {
-        src: "/img/programming/children/summercampuhc.avif",
+        src: "/img/programming/adult/adult2.png",
         caption: "",
       },
       {
-        src: "/img/programming/children/zoo2youuhc.avif",
+        src: "/img/programming/adult/adult4.png",
         caption: "",
       },
       {
-        src: "/img/programming/children/kidsclub.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub2.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub3.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/lemonadefoodbank.avif",
+        src: "/img/programming/adult/adult6.png",
         caption: "",
       },
     ],
@@ -94,31 +82,19 @@ export const programming: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/programming/children/vbcstmarks.avif",
+        src: "/img/programming/events/event2.png",
         caption: "",
       },
       {
-        src: "/img/programming/children/summercampuhc.avif",
+        src: "/img/programming/events/event3.png",
         caption: "",
       },
       {
-        src: "/img/programming/children/zoo2youuhc.avif",
+        src: "/img/programming/events/event4.png",
         caption: "",
       },
       {
-        src: "/img/programming/children/kidsclub.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub2.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub3.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/lemonadefoodbank.avif",
+        src: "/img/programming/events/large1.png",
         caption: "",
       },
     ],

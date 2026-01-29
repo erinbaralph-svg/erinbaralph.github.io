@@ -11,31 +11,15 @@ export const projects: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/programming/children/vbcstmarks.avif",
+        src: "/img/projects/uxbridge/access.png",
         caption: "",
       },
       {
-        src: "/img/programming/children/summercampuhc.avif",
+        src: "/img/projects/uxbridge/access2.png",
         caption: "",
       },
       {
-        src: "/img/programming/children/zoo2youuhc.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub2.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub3.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/lemonadefoodbank.avif",
+        src: "/img/projects/uxbridge/access3.png",
         caption: "",
       },
     ],
@@ -49,31 +33,15 @@ export const projects: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/programming/children/vbcstmarks.avif",
+        src: "/img/projects/attic/attic.png",
         caption: "",
       },
       {
-        src: "/img/programming/children/summercampuhc.avif",
+        src: "/img/projects/attic/attic1.png",
         caption: "",
       },
       {
-        src: "/img/programming/children/zoo2youuhc.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub2.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub3.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/lemonadefoodbank.avif",
+        src: "/img/projects/attic/attic3.png",
         caption: "",
       },
     ],
@@ -87,31 +55,15 @@ export const projects: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/programming/children/vbcstmarks.avif",
+        src: "/img/projects/archives/archives2.png",
         caption: "",
       },
       {
-        src: "/img/programming/children/summercampuhc.avif",
+        src: "/img/projects/archives/archives3.png",
         caption: "",
       },
       {
-        src: "/img/programming/children/zoo2youuhc.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub2.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub3.avif",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/lemonadefoodbank.avif",
+        src: "/img/projects/archives/archives4.png",
         caption: "",
       },
     ],
