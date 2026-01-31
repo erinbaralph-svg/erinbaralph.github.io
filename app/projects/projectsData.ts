@@ -12,7 +12,7 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/uxbridge/access.jpg",
-        caption: "",
+        caption: "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings",
       },
       {
         src: "/img/projects/uxbridge/access2.jpg",
@@ -34,7 +34,7 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/attic/attic.jpg",
-        caption: "",
+        caption: "This is the attic with everything all piled up waiting for deaccessioning, accessioning, and condition reporting.",
       },
       {
         src: "/img/projects/attic/attic1.jpg",
@@ -42,7 +42,7 @@ export const projects: ArticleData[] = [
       },
       {
         src: "/img/projects/attic/attic3.jpg",
-        caption: "",
+        caption: "This is the attic at the end of the summer after I cleaned it out",
       },
     ],
   },{
@@ -56,15 +56,15 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/archives/archives2.jpg",
-        caption: "",
+        caption: "The Archives at All Saints' Whitby Halfway through the project",
       },
       {
         src: "/img/projects/archives/archives3.jpg",
-        caption: "",
+        caption: "I organized, labelled, catalogued and stored many pictures and paintings",
       },
       {
         src: "/img/projects/archives/archives4.jpg",
-        caption: "",
+        caption: "My battle station!",
       },
     ],
   },

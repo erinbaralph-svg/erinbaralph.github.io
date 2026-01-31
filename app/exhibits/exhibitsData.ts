@@ -72,15 +72,15 @@ export const exhibits: ArticleData[] = [
       {
         src: "/img/exhibits/mini/minithumbnail.jpg",
         caption:
-          "",
+          "My Mini Exhibit",
       },
       {
         src: "/img/exhibits/mini/mini2.jpg",
-        caption: "",
+        caption: "My Plexi-glass mount holding my artifact",
       },
       {
         src: "/img/exhibits/mini/mini3.jpg",
-        caption: "",
+        caption: "My interactive featuring interactions!",
       },
       {
         src: "/img/exhibits/mini/Ralph_Mini_2.jpg",

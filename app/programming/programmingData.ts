@@ -17,11 +17,11 @@ export const programming: ArticleData[] = [
     images: [
       {
         src: "/img/programming/children/vbcstmarks.jpg",
-        caption: "",
+        caption: "I wrapped hundred of giant fake presents to decorate for summer camps",
       },
       {
         src: "/img/programming/children/summercampuhc.jpg",
-        caption: "",
+        caption: "I was a supervisor for museum summer camps at the Uxbridge Historical Centre",
       },
       {
         src: "/img/programming/children/zoo2youuhc.jpg",
@@ -29,7 +29,7 @@ export const programming: ArticleData[] = [
       },
       {
         src: "/img/programming/children/kidsclub.jpg",
-        caption: "",
+        caption: "I planned and ran Kids Clubs for Families at Saint Andrews'",
       },
       {
         src: "/img/programming/children/kidsclub2.jpg",
@@ -41,7 +41,7 @@ export const programming: ArticleData[] = [
       },
       {
         src: "/img/programming/children/lemonadefoodbank.jpg",
-        caption: "",
+        caption: "We also ran outdoor lemonade socials at the Foodbank",
       },
     ],
   },
@@ -56,19 +56,19 @@ export const programming: ArticleData[] = [
     images: [
       {
         src: "/img/programming/adult/adult1.jpg",
-        caption: "",
+        caption: "Me and my co-workers in costume at the Uxbridge Historical Centre",
       },
       {
         src: "/img/programming/adult/adult2.jpg",
-        caption: "",
+        caption: "I assisted with the statue unveiling at the Uxbridge Historical Centre",
       },
       {
         src: "/img/programming/adult/adult4.jpg",
-        caption: "",
+        caption: "I helped run letterpress workshops at the Uxbridge Historical Centre",
       },
       {
         src: "/img/programming/adult/adult6.jpg",
-        caption: "",
+        caption: "Me at the Big Nickle with the Cabinet of the Ontario Youth Parliament",
       },
     ],
   },
@@ -83,7 +83,7 @@ export const programming: ArticleData[] = [
     images: [
       {
         src: "/img/programming/events/event2.jpg",
-        caption: "",
+        caption: "Summer Fun Fest Event I ran at St. Andrews' Community Foodbank with more than 300 Attendees!",
       },
       {
         src: "/img/programming/events/event3.jpg",
@@ -91,11 +91,11 @@ export const programming: ArticleData[] = [
       },
       {
         src: "/img/programming/events/event4.jpg",
-        caption: "",
+        caption: "Setting Up For Lang Pioneer Villages Halloween Event",
       },
       {
         src: "/img/programming/events/large1.jpg",
-        caption: "",
+        caption: "Running a strawberry Social Silent Auction at St. Andrews' Community Foodbank",
       },
     ],
   },
