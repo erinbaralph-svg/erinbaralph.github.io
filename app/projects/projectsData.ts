@@ -34,7 +34,7 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/attic/attic.jpg",
-        caption: "This is the attic with everything all piled up waiting for deaccessioning, accessioning, and condition reporting.",
+        caption: "",
       },
       {
         src: "/img/projects/attic/attic1.jpg",
