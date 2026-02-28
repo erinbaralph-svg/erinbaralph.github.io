@@ -72,7 +72,7 @@ export const exhibits: ArticleData[] = [
             {
         src: "/img/exhibits/mini/mini_me.jpg",
         caption:
-          "My Mini Exhibit",
+          "Me, my mom, and my grandma (the subject of my exhibit)",
       },
       {
         src: "/img/exhibits/mini/minithumbnail.jpg",
@@ -93,11 +93,11 @@ export const exhibits: ArticleData[] = [
       },
       {
         src: "/img/exhibits/mini/exhibit_planning.jpg",
-        caption: "",
+        caption: "Me planning the layout of my exhibit.",
       },
       {
         src: "/img/exhibits/mini/looking_at_panel.jpg",
-        caption: "",
+        caption: "Me seeing the panel I created for the first time.",
       },
     ],
   },

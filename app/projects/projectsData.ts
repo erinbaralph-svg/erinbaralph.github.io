@@ -12,19 +12,19 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/kawartha/kawartha_me.jpg",
-        caption: "",
+        caption: "Me deciding which archival documents to include in the exhibit.",
       },
       {
         src: "/img/projects/kawartha/kawartha_selfie.jpg",
-        caption: "",
+        caption: "Me at meeting with the Historical Society looking at archival material.",
       },
       {
         src: "/img/projects/kawartha/kawartha_3d.png",
-        caption: "",
+        caption: "3D design for wellness centre exhibit.",
       },
             {
         src: "/img/projects/kawartha/kawartha_3d_2.png",
-        caption: "",
+        caption: "3D design for wellness centre exhibit.",
       },
     ],
   },{
@@ -60,7 +60,7 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/attic/attic_me.jpg",
-        caption: "",
+        caption: "Me in the attic of the Uxbridge Historical Centre School House",
       },
       {
         src: "/img/projects/attic/attic.jpg",
@@ -72,7 +72,7 @@ export const projects: ArticleData[] = [
       },
       {
         src: "/img/projects/attic/attic3.jpg",
-        caption: "This is the attic at the end of the summer after I cleaned it out",
+        caption: "",
       },
     ],
   },{
