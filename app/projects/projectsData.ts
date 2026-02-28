@@ -11,16 +11,20 @@ export const projects: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/projects/attic/attic.jpg",
+        src: "/img/projects/kawartha/kawartha_me.jpg",
         caption: "",
       },
       {
-        src: "/img/projects/attic/attic1.jpg",
+        src: "/img/projects/kawartha/kawartha_selfie.jpg",
         caption: "",
       },
       {
-        src: "/img/projects/attic/attic3.jpg",
-        caption: "This is the attic at the end of the summer after I cleaned it out",
+        src: "/img/projects/kawartha/kawartha_3d.jpg",
+        caption: "",
+      },
+            {
+        src: "/img/projects/kawartha/kawartha_3d_2.jpg",
+        caption: "",
       },
     ],
   },{
@@ -54,6 +58,10 @@ export const projects: ArticleData[] = [
       "In the summer of 2024, I worked as a Collections Assistant at the Uxbridge Historical Centre. My main responsibility was a large-scale project involving the cleaning and reorganization of the attic in one of the Centre’s historic buildings. Through this work, I gained hands-on experience in deaccessioning, condition reporting, cataloguing, inventory management, proper storage, and safe disposal practices. I used Excel and museum collections management software to document artifacts and maintain accurate records, while following conservation and safety standards throughout the project.",
     ],
     images: [
+      {
+        src: "/img/projects/attic/attic_me.jpg",
+        caption: "",
+      },
       {
         src: "/img/projects/attic/attic.jpg",
         caption: "",

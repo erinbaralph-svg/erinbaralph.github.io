@@ -16,6 +16,10 @@ export const programming: ArticleData[] = [
     ],
     images: [
       {
+        src: "/img/programming/children/opy_auction.jpg",
+        caption: "",
+      },
+      {
         src: "/img/programming/children/vbcstmarks.jpg",
         caption: "I wrapped hundred of giant fake presents to decorate for summer camps",
       },
@@ -28,15 +32,11 @@ export const programming: ArticleData[] = [
         caption: "",
       },
       {
-        src: "/img/programming/children/kidsclub.jpg",
+        src: "/img/programming/children/kids_club.jpg",
         caption: "I planned and ran Kids Clubs for Families at Saint Andrews'",
       },
       {
-        src: "/img/programming/children/kidsclub2.jpg",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub3.jpg",
+        src: "/img/programming/children/kidsclub.jpg",
         caption: "",
       },
       {
@@ -81,6 +81,10 @@ export const programming: ArticleData[] = [
       "Throughout my career to date, I have been involved in budgeting, planning, and delivering large-scale events for audiences of 100+ attendees. For several years, I served on the Board of Directors of the Ontario Youth Parliament as Director of Youth Programs, where I helped plan annual four-day conferences attended by hundreds of participants. My responsibilities included program development, event budgeting, and booking hotels and accommodations. At the Uxbridge Historical Centre, I supported the implementation of large public events such as Kite Day and the Lucy Maud Montgomery Teas, as well as event setup for weddings and private functions. Additionally, at St. Andrew’s Community Food Bank, I budgeted for, procured supplies for, planned, and delivered two large “Summer Fun Fest” events serving both the wider community and food bank patrons.",
     ],
     images: [
+      {
+        src: "/img/programming/events/cabinet_oyp.jpg",
+        caption: "",
+      },
       {
         src: "/img/programming/events/event2.jpg",
         caption: "Summer Fun Fest Event I ran at St. Andrews' Community Foodbank with more than 300 Attendees!",
