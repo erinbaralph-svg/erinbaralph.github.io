@@ -16,7 +16,7 @@ export const programming: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/programming/children/opy_auction.jpg",
+        src: "/img/programming/children/oyp_auction.jpg",
         caption: "",
       },
       {

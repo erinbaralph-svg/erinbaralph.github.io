@@ -19,11 +19,11 @@ export const projects: ArticleData[] = [
         caption: "",
       },
       {
-        src: "/img/projects/kawartha/kawartha_3d.jpg",
+        src: "/img/projects/kawartha/kawartha_3d.png",
         caption: "",
       },
             {
-        src: "/img/projects/kawartha/kawartha_3d_2.jpg",
+        src: "/img/projects/kawartha/kawartha_3d_2.png",
         caption: "",
       },
     ],
