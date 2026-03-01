@@ -29,19 +29,19 @@ export const programming: ArticleData[] = [
       },
       {
         src: "/img/programming/children/zoo2youuhc.jpg",
-        caption: "I helped supervise zoo 2 you visits at our Museum Summer Camps.",
+        caption: "I helped supervise zoo2you visits at our Museum Summer Camps.",
       },
       {
         src: "/img/programming/children/kids_club.jpg",
-        caption: "I planned and ran Kids Clubs for Families at Saint Andrews.'",
+        caption: "I planned and ran Kids Clubs for Families at Saint Andrew's Community Foodbank.",
       },
       {
         src: "/img/programming/children/kidsclub.jpg",
-        caption: "",
+        caption: "Here is my decor setup for the Dino Kids Club.",
       },
       {
         src: "/img/programming/children/lemonadefoodbank.jpg",
-        caption: "We also ran outdoor lemonade socials at the Foodbank.",
+        caption: "I also ran outdoor lemonade socials for families at the Foodbank.",
       },
     ],
   },
@@ -56,19 +56,19 @@ export const programming: ArticleData[] = [
     images: [
       {
         src: "/img/programming/adult/adult1.jpg",
-        caption: "Me and my co-workers in costume at the Uxbridge Historical Centre",
+        caption: "Me and my co-workers in costume at the Uxbridge Historical Centre.",
       },
       {
         src: "/img/programming/adult/adult2.jpg",
-        caption: "I assisted with the statue unveiling at the Uxbridge Historical Centre",
+        caption: "I assisted with a statue unveiling party at the Uxbridge Historical Centre.",
       },
       {
         src: "/img/programming/adult/adult4.jpg",
-        caption: "I helped run letterpress workshops at the Uxbridge Historical Centre",
+        caption: "I helped run letterpress workshops at the Uxbridge Historical Centre.",
       },
       {
         src: "/img/programming/adult/adult6.jpg",
-        caption: "Me at the Big Nickle with the Young Adult Cabinet of the Ontario Youth Parliament",
+        caption: "Me at the Big Nickle with the Young Adult Cabinet of the Ontario Youth Parliament.",
       },
     ],
   },
@@ -91,15 +91,15 @@ export const programming: ArticleData[] = [
       },
       {
         src: "/img/programming/events/event3.jpg",
-        caption: "",
+        caption: "Kids and parents drawing with chalk at Summer Fun Fest",
       },
       {
         src: "/img/programming/events/event4.jpg",
-        caption: "Setting Up For Lang Pioneer Villages Halloween Event",
+        caption: " Me and my MMC class mates setting Up For Lang Pioneer Villages Halloween Event.",
       },
       {
         src: "/img/programming/events/large1.jpg",
-        caption: "Running a strawberry Social Silent Auction at St. Andrews' Community Foodbank",
+        caption: "Running a strawberry Social Silent Auction at St. Andrews' Community Foodbank.",
       },
     ],
   },

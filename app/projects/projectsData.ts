@@ -16,15 +16,15 @@ export const projects: ArticleData[] = [
       },
       {
         src: "/img/projects/kawartha/kawartha_selfie.jpg",
-        caption: "Me at meeting with the Historical Society looking at archival material.",
+        caption: "Me at a meeting with the Shedden Historical Society looking at archival material.",
       },
       {
         src: "/img/projects/kawartha/kawartha_3d.png",
-        caption: "3D design for wellness centre exhibit.",
+        caption: "3D design for Wellness Centre Exhibit.",
       },
             {
         src: "/img/projects/kawartha/kawartha_3d_2.png",
-        caption: "3D design for wellness centre exhibit.",
+        caption: "3D design for Wellness Centre Exhibit.",
       },
     ],
   },{
@@ -38,15 +38,15 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/uxbridge/access.jpg",
-        caption: "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings",
+        caption: "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings.",
       },
       {
         src: "/img/projects/uxbridge/access2.jpg",
-        caption: "",
+        caption: "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings",
       },
       {
         src: "/img/projects/uxbridge/access3.jpg",
-        caption: "",
+        caption: "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings",
       },
     ],
   },{
@@ -60,19 +60,18 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/attic/attic_me.jpg",
-        caption: "Me in the attic of the Uxbridge Historical Centre School House",
-      },
-      {
-        src: "/img/projects/attic/attic.jpg",
-        caption: "",
+        caption: "Me in the attic of the Uxbridge Historical Centre School House at the start of the Project.",
       },
       {
         src: "/img/projects/attic/attic1.jpg",
-        caption: "",
+        caption: "The attic at the start of the Summer.",
+      },      {
+        src: "/img/projects/attic/attic.jpg",
+        caption: "The attic midway through the Summer.",
       },
       {
         src: "/img/projects/attic/attic3.jpg",
-        caption: "",
+        caption: "The attic at the end of the Summer all cleaned out!",
       },
     ],
   },{
@@ -86,11 +85,11 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/archives/archives2.jpg",
-        caption: "The Archives at All Saints' Whitby Halfway through the project",
+        caption: "The Archives at All Saints' Whitby halfway through the project.",
       },
       {
         src: "/img/projects/archives/archives3.jpg",
-        caption: "I organized, labelled, catalogued and stored many pictures and paintings",
+        caption: "I organized, labelled, catalogued and stored many pictures and paintings.",
       },
       {
         src: "/img/projects/archives/archives4.jpg",
