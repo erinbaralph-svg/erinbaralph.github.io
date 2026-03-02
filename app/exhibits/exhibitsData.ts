@@ -69,22 +69,35 @@ export const exhibits: ArticleData[] = [
       "This mini exhibit was conceived, designed, and executed independently from start to finish. I developed the interpretive concept, designed and printed the primary information panel, and created a museum-safe mount to support and protect the object on display. I also proposed and implemented an interactive element to encourage visitor engagement and deepen interpretation. The completed mini exhibit was presented as part of a larger exhibition at the Peterborough Museum & Archives, where it contributed to the overall narrative of the show while functioning as a fully realized, self-contained display.",
     ],
     images: [
+            {
+        src: "/img/exhibits/mini/mini_me.jpg",
+        caption:
+          "Me, my mom, and my grandma (the subject of my exhibit)",
+      },
       {
         src: "/img/exhibits/mini/minithumbnail.jpg",
         caption:
-          "",
+          "My Mini Exhibit",
       },
       {
         src: "/img/exhibits/mini/mini2.jpg",
-        caption: "",
+        caption: "My Plexi-glass mount holding my artifact",
       },
       {
         src: "/img/exhibits/mini/mini3.jpg",
-        caption: "",
+        caption: "My interactive featuring interactions!",
       },
       {
         src: "/img/exhibits/mini/Ralph_Mini_2.jpg",
         caption: "3D Exhibit Design Made on SketchUp",
+      },
+      {
+        src: "/img/exhibits/mini/exhibit_planning.jpg",
+        caption: "Me planning the layout of my exhibit.",
+      },
+      {
+        src: "/img/exhibits/mini/looking_at_panel.jpg",
+        caption: "Me seeing the panel I created for the first time.",
       },
     ],
   },

@@ -16,32 +16,32 @@ export const programming: ArticleData[] = [
     ],
     images: [
       {
+        src: "/img/programming/children/oyp_auction.jpg",
+        caption: "Me MCing the charity auction for Ontario Youth Parliament.",
+      },
+      {
         src: "/img/programming/children/vbcstmarks.jpg",
-        caption: "",
+        caption: "I wrapped hundred of giant fake presents to decorate for summer camps.",
       },
       {
         src: "/img/programming/children/summercampuhc.jpg",
-        caption: "",
+        caption: "I was a supervisor for museum summer camps at the Uxbridge Historical Centre.",
       },
       {
         src: "/img/programming/children/zoo2youuhc.jpg",
-        caption: "",
+        caption: "I helped supervise zoo2you visits at our Museum Summer Camps.",
+      },
+      {
+        src: "/img/programming/children/kids_club.jpg",
+        caption: "I planned and ran Kids Clubs for Families at Saint Andrew's Community Foodbank.",
       },
       {
         src: "/img/programming/children/kidsclub.jpg",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub2.jpg",
-        caption: "",
-      },
-      {
-        src: "/img/programming/children/kidsclub3.jpg",
-        caption: "",
+        caption: "Here is my decor setup for the Dino Kids Club.",
       },
       {
         src: "/img/programming/children/lemonadefoodbank.jpg",
-        caption: "",
+        caption: "I also ran outdoor lemonade socials for families at the Foodbank.",
       },
     ],
   },
@@ -56,19 +56,19 @@ export const programming: ArticleData[] = [
     images: [
       {
         src: "/img/programming/adult/adult1.jpg",
-        caption: "",
+        caption: "Me and my co-workers in costume at the Uxbridge Historical Centre.",
       },
       {
         src: "/img/programming/adult/adult2.jpg",
-        caption: "",
+        caption: "I assisted with a statue unveiling party at the Uxbridge Historical Centre.",
       },
       {
         src: "/img/programming/adult/adult4.jpg",
-        caption: "",
+        caption: "I helped run letterpress workshops at the Uxbridge Historical Centre.",
       },
       {
         src: "/img/programming/adult/adult6.jpg",
-        caption: "",
+        caption: "Me at the Big Nickle with the Young Adult Cabinet of the Ontario Youth Parliament.",
       },
     ],
   },
@@ -82,20 +82,24 @@ export const programming: ArticleData[] = [
     ],
     images: [
       {
+        src: "/img/programming/events/cabinet_oyp.jpg",
+        caption: "Me with the Cabinet of the Ontario Youth Parliament of 2023 who ran events for more that 50 youth.",
+      },
+      {
         src: "/img/programming/events/event2.jpg",
-        caption: "",
+        caption: "Summer Fun Fest Event I ran at St. Andrews' Community Foodbank with more than 300 Attendees!",
       },
       {
         src: "/img/programming/events/event3.jpg",
-        caption: "",
+        caption: "Kids and parents drawing with chalk at Summer Fun Fest",
       },
       {
         src: "/img/programming/events/event4.jpg",
-        caption: "",
+        caption: " Me and my MMC class mates setting Up For Lang Pioneer Villages Halloween Event.",
       },
       {
         src: "/img/programming/events/large1.jpg",
-        caption: "",
+        caption: "Running a strawberry Social Silent Auction at St. Andrews' Community Foodbank.",
       },
     ],
   },

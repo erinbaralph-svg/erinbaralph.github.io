@@ -2,6 +2,32 @@ import { type ArticleData } from "@/types/article";
 
 export const projects: ArticleData[] = [
   {
+    id: "kawartha-lakes",
+    title: "Exhibit Consultant",
+    date: "2025-26",
+    location: "Kawartha Lakes, ON",
+    descriptionParagraphs: [
+      "Since October 2025, I have been working part-time with the Kawartha Lakes area and its Historical Society to develop historical displays for a new wellness centre opening this spring. As part of this project, I have written exhibit text, created concept art and 3D exhibit designs, and conducted research on display case procurement and panel printing. I have also participated in multiple design meetings with the Historical Society and assisted in the selection and restoration of historical photographs.",
+    ],
+    images: [
+      {
+        src: "/img/projects/kawartha/kawartha_me.jpg",
+        caption: "Me deciding which archival documents to include in the exhibit.",
+      },
+      {
+        src: "/img/projects/kawartha/kawartha_selfie.jpg",
+        caption: "Me at a meeting with the Shedden Historical Society looking at archival material.",
+      },
+      {
+        src: "/img/projects/kawartha/kawartha_3d.png",
+        caption: "3D design for Wellness Centre Exhibit.",
+      },
+            {
+        src: "/img/projects/kawartha/kawartha_3d_2.png",
+        caption: "3D design for Wellness Centre Exhibit.",
+      },
+    ],
+  },{
     id: "uxbridge-preparator",
     title: "Museum Preperator",
     date: "Summer 2023",
@@ -12,15 +38,15 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/uxbridge/access.jpg",
-        caption: "",
+        caption: "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings.",
       },
       {
         src: "/img/projects/uxbridge/access2.jpg",
-        caption: "",
+        caption: "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings",
       },
       {
         src: "/img/projects/uxbridge/access3.jpg",
-        caption: "",
+        caption: "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings",
       },
     ],
   },{
@@ -33,16 +59,19 @@ export const projects: ArticleData[] = [
     ],
     images: [
       {
-        src: "/img/projects/attic/attic.jpg",
-        caption: "",
+        src: "/img/projects/attic/attic_me.jpg",
+        caption: "Me in the attic of the Uxbridge Historical Centre School House at the start of the Project.",
       },
       {
         src: "/img/projects/attic/attic1.jpg",
-        caption: "",
+        caption: "The attic at the start of the Summer.",
+      },      {
+        src: "/img/projects/attic/attic.jpg",
+        caption: "The attic midway through the Summer.",
       },
       {
         src: "/img/projects/attic/attic3.jpg",
-        caption: "",
+        caption: "The attic at the end of the Summer all cleaned out!",
       },
     ],
   },{
@@ -56,15 +85,15 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/archives/archives2.jpg",
-        caption: "",
+        caption: "The Archives at All Saints' Whitby halfway through the project.",
       },
       {
         src: "/img/projects/archives/archives3.jpg",
-        caption: "",
+        caption: "I organized, labelled, catalogued and stored many pictures and paintings.",
       },
       {
         src: "/img/projects/archives/archives4.jpg",
-        caption: "",
+        caption: "My battle station!",
       },
     ],
   },
