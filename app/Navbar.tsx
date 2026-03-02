@@ -43,6 +43,11 @@ export function Navbar({ currentPageHref }: { currentPageHref: string }) {
       name: "Resume",
       icon: "resume.png",
     },
+    {
+      href: "/contact",
+      name: "Contact",
+      icon: "contact.png",
+    },
   ] as const;
 
   return (
