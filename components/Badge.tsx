@@ -9,11 +9,25 @@ export type BadgeData = {
 };
 
 export function Badge({ title, link, iconSrc }: BadgeData) {
-  return (
+  return link ? (
     <Link
+      target="_blank"
+      rel="noopener noreferrer"
       href={link ?? ""}
       className="p-1 flex justify-start items-center gap-4 w-full p-4 border-4 border-t-[#EAEAEA] border-l-[#EAEAEA] border-r-[#A8A8A8] border-b-[#A8A8A8]"
     >
+      <BadgeContent title={title} link={link} iconSrc={iconSrc} />
+    </Link>
+  ) : (
+    <div className="p-1 flex justify-start items-center gap-4 w-full p-4 border-4 border-t-[#EAEAEA] border-l-[#EAEAEA] border-r-[#A8A8A8] border-b-[#A8A8A8]">
+      <BadgeContent title={title} link={link} iconSrc={iconSrc} />
+    </div>
+  );
+}
+
+function BadgeContent({ title, link, iconSrc }: BadgeData) {
+  return (
+    <>
       <Image
         src={iconSrc}
         alt={`Icon for ${title}`}
@@ -29,6 +43,6 @@ export function Badge({ title, link, iconSrc }: BadgeData) {
       >
         {title}
       </p>
-    </Link>
+    </>
   );
 }
