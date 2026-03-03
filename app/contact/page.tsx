@@ -51,7 +51,7 @@ export default function AboutPage() {
             </Link>
             <Link
               href={`tel:${data.phone}`}
-              className="flex items-center gap-6"
+              className="flex items-center gap-4"
             >
               <Image
                 src={`/img/contact/phone.png`}
