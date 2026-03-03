@@ -16,7 +16,7 @@ export function ArticleWindow({
     <Link
       href={`/${urlPrefix}/${id}`}
       className={clsx(
-        "group w-96 h-82 p-2 flex flex-col gap-2 cursor-pointer",
+        "w-96 h-82 p-2 flex flex-col gap-2 cursor-pointer",
         "border-4 border-transparent hover:border-t-[#EAEAEA] hover:border-l-[#EAEAEA] hover:border-r-[#A8A8A8] hover:border-b-[#A8A8A8]"
       )}
     >
@@ -28,7 +28,7 @@ export function ArticleWindow({
           draggable={false}
         />
       </Whiteboard>
-      <p className="underline sm:no-underline group-hover:underline h-12 line-clamp-2">
+      <p className="underline h-12 line-clamp-2">
         {title}
       </p>
     </Link>
