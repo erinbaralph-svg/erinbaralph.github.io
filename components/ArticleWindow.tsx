@@ -4,8 +4,7 @@ import clsx from "clsx";
 import { Whiteboard } from "./Whiteboard";
 import Link from "next/link";
 import { ArticleData } from "@/types/article";
-import { advanceRoverState } from "./Rover";
-import { RoverState } from "@/types/rover";
+import { hideRoverTip } from "./Rover";
 
 export function ArticleWindow({
   articleData,
@@ -19,7 +18,7 @@ export function ArticleWindow({
   return (
     <Link
       href={`/${urlPrefix}/${id}`}
-      onClick={() => advanceRoverState(RoverState.ARTICLES)}
+      onClick={() => hideRoverTip("articles")}
       className={clsx(
         "w-96 h-82 p-2 flex flex-col gap-2 cursor-pointer",
         "border-4 border-transparent hover:border-t-[#EAEAEA] hover:border-l-[#EAEAEA] hover:border-r-[#A8A8A8] hover:border-b-[#A8A8A8]"

@@ -1,3 +1,5 @@
+"use client"
+
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,20 +8,25 @@ export type BadgeData = {
   title: string;
   link?: string;
   iconSrc: string;
+  handleClick?: () => void;
 };
 
-export function Badge({ title, link, iconSrc }: BadgeData) {
+export function Badge({ title, link, iconSrc, handleClick }: BadgeData) {
   return link ? (
     <Link
       target="_blank"
       rel="noopener noreferrer"
       href={link ?? ""}
+      onClick={handleClick ?? (() => {})}
       className="p-1 flex justify-start items-center gap-4 w-full p-4 border-4 border-t-[#EAEAEA] border-l-[#EAEAEA] border-r-[#A8A8A8] border-b-[#A8A8A8]"
     >
       <BadgeContent title={title} link={link} iconSrc={iconSrc} />
     </Link>
   ) : (
-    <div className="p-1 flex justify-start items-center gap-4 w-full p-4 border-4 border-t-[#EAEAEA] border-l-[#EAEAEA] border-r-[#A8A8A8] border-b-[#A8A8A8]">
+    <div
+      onClick={handleClick ?? (() => {})}
+      className="p-1 flex justify-start items-center gap-4 w-full p-4 border-4 border-t-[#EAEAEA] border-l-[#EAEAEA] border-r-[#A8A8A8] border-b-[#A8A8A8]"
+    >
       <BadgeContent title={title} link={link} iconSrc={iconSrc} />
     </div>
   );

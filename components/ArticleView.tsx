@@ -6,8 +6,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ImageOverlay } from "@/components/ImageOverlay";
-import { advanceRoverState, Rover } from "./Rover";
-import { RoverState } from "@/types/rover";
+import { hideRoverTip, Rover } from "./Rover";
 
 export function ArticleView({
   articleData,
@@ -43,7 +42,9 @@ export function ArticleView({
 
   return (
     <>
-      <Rover visibleState={RoverState.PHOTOS} />
+      <Rover tipName={"photos"}>
+        Click on each photo for a description!
+      </Rover>
       <Navbar currentPageHref={`/${urlPrefix}`} />
       <Whiteboard className="mx-1 mb-2">
         <div
@@ -72,7 +73,7 @@ export function ArticleView({
                 alt={image.caption ?? ""}
                 className="w-full aspect-square object-cover select-none cursor-zoom-in"
                 onClick={() => {
-                  advanceRoverState(RoverState.PHOTOS);
+                  hideRoverTip("photos");
                   setOverlayImageSrc(image.src);
                 }}
                 draggable={false}

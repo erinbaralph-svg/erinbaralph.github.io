@@ -3,7 +3,6 @@ import { Navbar } from "../Navbar";
 import { ArticleWindow } from "@/components/ArticleWindow";
 import { exhibits } from "./exhibitsData";
 import { Rover } from "@/components/Rover";
-import { RoverState } from "@/types/rover";
 
 export const metadata: Metadata = {
   title: "Exhibits - Erin Ralph",
@@ -12,7 +11,9 @@ export const metadata: Metadata = {
 export default function ExhibitsPage() {
   return (
     <>
-      <Rover visibleState={RoverState.ARTICLES} />
+      <Rover tipName={"articles"}>
+        Click on each exhibit to read more!
+      </Rover>
       <Navbar currentPageHref="/exhibits" />
       <main className="p-2 pb-4 overflow-y-auto flex flex-col flex-grow">
         <div className="flex flex-wrap justify-center md:justify-start gap-2">
