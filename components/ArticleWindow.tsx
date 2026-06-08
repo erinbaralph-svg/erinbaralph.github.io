@@ -13,7 +13,7 @@ export function ArticleWindow({
   articleData: ArticleData;
   urlPrefix: string;
 }) {
-  const { id, title, images } = articleData;
+  const { id, title, images, location } = articleData;
 
   return (
     <Link
@@ -32,7 +32,10 @@ export function ArticleWindow({
           draggable={false}
         />
       </Whiteboard>
-      <p className="underline h-12 line-clamp-2">{title}</p>
+      <div className="flex flex-col h-12">
+        <p className="underline h-12 line-clamp-2">{title}</p>
+        <p className="h-12 line-clamp-2 italic opacity-60">{location}</p>
+      </div>
     </Link>
   );
 }

@@ -40,11 +40,13 @@ export function ArticleView({
     }
   }, [overlayImageSrc]);
 
+  const subtitleNeedsDelimiter: boolean = !!(
+    articleData.location && articleData.date
+  );
+
   return (
     <>
-      <Rover tipName={"photos"}>
-        Click on each photo for a description!
-      </Rover>
+      <Rover tipName={"photos"}>Click on each photo for a description!</Rover>
       <Navbar currentPageHref={`/${urlPrefix}`} />
       <Whiteboard className="mx-1 mb-2">
         <div
@@ -59,6 +61,11 @@ export function ArticleView({
               </span>
             </Link>
             <h1 className="text-2xl font-bold">{articleData.title}</h1>
+            <div className="flex gap-x-2 flex-wrap italic">
+              <p>{articleData.location}</p>
+              <p>{subtitleNeedsDelimiter && "-"}</p>
+              <p>{articleData.date}</p>
+            </div>
             {articleData.descriptionParagraphs.map((text, index) => (
               <p key={index} className="leading-6">
                 {text}
