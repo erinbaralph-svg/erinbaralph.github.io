@@ -40,6 +40,9 @@ export function ArticleView({
     }
   }, [overlayImageSrc]);
 
+  const shouldShowSubtitle: boolean = !!(
+    articleData.location || articleData.date
+  );
   const subtitleNeedsDelimiter: boolean = !!(
     articleData.location && articleData.date
   );
@@ -61,15 +64,17 @@ export function ArticleView({
               </span>
             </Link>
             <h1 className="text-2xl font-bold">{articleData.title}</h1>
-            <div className="flex gap-x-2 flex-wrap italic">
-              {articleData.location && (
-                <>
-                  <p>{articleData.location}</p>
-                  <p>{subtitleNeedsDelimiter && "-"}</p>
-                </>
-              )}
-              <p>{articleData.date}</p>
-            </div>
+            {shouldShowSubtitle && (
+              <div className="flex gap-x-2 flex-wrap italic">
+                {articleData.location && (
+                  <>
+                    <p>{articleData.location}</p>
+                    <p>{subtitleNeedsDelimiter && "-"}</p>
+                  </>
+                )}
+                <p>{articleData.date}</p>
+              </div>
+            )}
             {articleData.descriptionParagraphs.map((text, index) => (
               <p key={index} className="leading-6">
                 {text}

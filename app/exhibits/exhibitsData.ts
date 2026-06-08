@@ -4,7 +4,7 @@ export const exhibits: ArticleData[] = [
   {
     id: "fields-to-paper",
     title: "From Fields to Paper: Lucy Maud Montgomery’s Literary Garden",
-    date: "Summer 2024",
+    date: "2024",
     location: "Uxbridge Historical Centre",
     descriptionParagraphs: [
       "In the summer of 2024, I assisted in the construction of the From Fields to Paper exhibit at the Uxbridge Historical Centre in Uxbridge, ON. For this project, I helped paint exhibit furniture, print and cut panels, and mount both panels and framed artwork. ",
@@ -30,7 +30,7 @@ export const exhibits: ArticleData[] = [
   {
     id: "house-and-home",
     title: "The House and The Home",
-    date: "March 2025",
+    date: "2025",
     location: "University of Toronto",
     descriptionParagraphs: [
       "In March 2025, I co-curated an exhibit for the University of Toronto’s Galleries, Libraries, Archives, and Museums (GLAM) Club.",
@@ -63,7 +63,7 @@ export const exhibits: ArticleData[] = [
   {
     id: "chains-of-memory",
     title: "Chains of Memory",
-    date: "December 2025",
+    date: "2025",
     location: "Peterborough Museum and Archives",
     descriptionParagraphs: [
       "This mini exhibit was conceived, designed, and executed independently from start to finish. I developed the interpretive concept, designed and printed the primary information panel, and created a museum-safe mount to support and protect the object on display. I also proposed and implemented an interactive element to encourage visitor engagement and deepen interpretation. The completed mini exhibit was presented as part of a larger exhibition at the Peterborough Museum & Archives, where it contributed to the overall narrative of the show while functioning as a fully realized, self-contained display.",
@@ -102,7 +102,7 @@ export const exhibits: ArticleData[] = [
   {
     id: "we-wear-many-hats",
     title: "We Wear Many Hats",
-    date: "Summer 2026",
+    date: "2026",
     location: "Peterborough Museum and Archives",
     descriptionParagraphs: [
       "From September 2025 to April 2026, I co-curated We Wear Many Hats for the Peterborough Museum & Archives as part of Fleming College's Museum Management program. Working from concept to completion, I served as both Project Manager and 3D Designer, overseeing research, budgeting, purchasing, scheduling, and team coordination. My contributions included exhibit research and script writing, floor plan development, panel and graphic design, furniture construction, and the overall management of the exhibition process, ensuring the successful delivery of a fully realized museum exhibit.",
