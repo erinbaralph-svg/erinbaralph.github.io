@@ -62,8 +62,12 @@ export function ArticleView({
             </Link>
             <h1 className="text-2xl font-bold">{articleData.title}</h1>
             <div className="flex gap-x-2 flex-wrap italic">
-              <p>{articleData.location}</p>
-              <p>{subtitleNeedsDelimiter && "-"}</p>
+              {articleData.location && (
+                <>
+                  <p>{articleData.location}</p>
+                  <p>{subtitleNeedsDelimiter && "-"}</p>
+                </>
+              )}
               <p>{articleData.date}</p>
             </div>
             {articleData.descriptionParagraphs.map((text, index) => (
