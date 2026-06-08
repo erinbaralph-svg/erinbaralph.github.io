@@ -23,7 +23,9 @@ export default function AboutPage() {
               interested in museum administration, fundraising, and project
               management. I am a graduate student currently studying Museum
               Management and Curatorship at Fleming College and have an
-              undergraduate background in History and English Literature.
+              undergraduate background in History and English Literature. This
+              summer I am interning at the Markham Museum as their Events and
+              Business Development Specialist.
             </p>
             <p>
               Outside of my studies, I have a wealth of experience in running
@@ -36,7 +38,8 @@ export default function AboutPage() {
               I have a great deal of interest in using digital media to assist
               museums and archives in their activities and operations. Feel free
               to explore my site a bit further to learn more about me and what I
-              have worked on!
+              have worked on! (P.S. I really like the style of old software this
+              website is intentionally designed to be old)
             </p>
           </div>
           <div className="w-fit flex gap-2 flex-col items-center">

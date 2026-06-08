@@ -21,19 +21,23 @@ export const programming: ArticleData[] = [
       },
       {
         src: "/img/programming/children/vbcstmarks.jpg",
-        caption: "I wrapped hundred of giant fake presents to decorate for summer camps.",
+        caption:
+          "I wrapped hundred of giant fake presents to decorate for summer camps.",
       },
       {
         src: "/img/programming/children/summercampuhc.jpg",
-        caption: "I was a supervisor for museum summer camps at the Uxbridge Historical Centre.",
+        caption:
+          "I was a supervisor for museum summer camps at the Uxbridge Historical Centre.",
       },
       {
         src: "/img/programming/children/zoo2youuhc.jpg",
-        caption: "I helped supervise zoo2you visits at our Museum Summer Camps.",
+        caption:
+          "I helped supervise zoo2you visits at our Museum Summer Camps.",
       },
       {
         src: "/img/programming/children/kids_club.jpg",
-        caption: "I planned and ran Kids Clubs for Families at Saint Andrew's Community Foodbank.",
+        caption:
+          "I planned and ran Kids Clubs for Families at Saint Andrew's Community Foodbank.",
       },
       {
         src: "/img/programming/children/kidsclub.jpg",
@@ -41,7 +45,8 @@ export const programming: ArticleData[] = [
       },
       {
         src: "/img/programming/children/lemonadefoodbank.jpg",
-        caption: "I also ran outdoor lemonade socials for families at the Foodbank.",
+        caption:
+          "I also ran outdoor lemonade socials for families at the Foodbank.",
       },
     ],
   },
@@ -51,24 +56,28 @@ export const programming: ArticleData[] = [
     date: "2022-2025",
     location: "",
     descriptionParagraphs: [
-      "I also have extensive experience delivering adult programming. At the Uxbridge Historical Centre, I led workshops such as paint nights and linocut printmaking sessions, and assisted with the planning, marketing, and day-of delivery of these events. At St. Andrew's Community Foodbank, I planned, budgeted, and facilitated weekly drop-in programs providing refreshments for food bank clients, as well as volunteer-focused events including charity book sales, Canada Day celebrations, and carnival-style activities. More recently, I have supported a range of adult programming at the Lynde House Museum, including Christmas tours, Victorian teas, and regular guided tours.",
+      "I have extensive experience delivering adult programming. At the Uxbridge Historical Centre, I led workshops such as paint nights and linocut printmaking sessions, and assisted with the planning, marketing, and day-of delivery of these events. At St. Andrew’s Community Foodbank, I planned, budgeted, and facilitated weekly drop-in programs providing refreshments for food bank clients, as well as volunteer-focused events including charity book sales, Canada Day celebrations, and carnival-style activities. More recently, I have supported a range of adult programming at the Lynde House Museum, including Christmas tours, Victorian teas, and regular guided tours. In Spring of 2026 I planned, implemented, and hosted a Trivia night at Lang Pioneer Village this included budgeting, food prep, setup and teardown, script writing and more.",
     ],
     images: [
       {
         src: "/img/programming/adult/adult1.jpg",
-        caption: "Me and my co-workers in costume at the Uxbridge Historical Centre.",
+        caption:
+          "Me and my co-workers in costume at the Uxbridge Historical Centre.",
       },
       {
         src: "/img/programming/adult/adult2.jpg",
-        caption: "I assisted with a statue unveiling party at the Uxbridge Historical Centre.",
+        caption:
+          "I assisted with a statue unveiling party at the Uxbridge Historical Centre.",
       },
       {
         src: "/img/programming/adult/adult4.jpg",
-        caption: "I helped run letterpress workshops at the Uxbridge Historical Centre.",
+        caption:
+          "I helped run letterpress workshops at the Uxbridge Historical Centre.",
       },
       {
         src: "/img/programming/adult/adult6.jpg",
-        caption: "Me at the Big Nickle with the Young Adult Cabinet of the Ontario Youth Parliament.",
+        caption:
+          "Me at the Big Nickle with the Young Adult Cabinet of the Ontario Youth Parliament.",
       },
     ],
   },
@@ -78,16 +87,18 @@ export const programming: ArticleData[] = [
     date: "2022-2025",
     location: "",
     descriptionParagraphs: [
-      "Throughout my career to date, I have been involved in budgeting, planning, and delivering large-scale events for audiences of 100+ attendees. For several years, I served on the Board of Directors of the Ontario Youth Parliament as Director of Youth Programs, where I helped plan annual four-day conferences attended by hundreds of participants. My responsibilities included program development, event budgeting, and booking hotels and accommodations. At the Uxbridge Historical Centre, I supported the implementation of large public events such as Kite Day and the Lucy Maud Montgomery Teas, as well as event setup for weddings and private functions. Additionally, at St. Andrew’s Community Food Bank, I budgeted for, procured supplies for, planned, and delivered two large “Summer Fun Fest” events serving both the wider community and food bank patrons.",
+      "Throughout my career to date, I have been involved in budgeting, planning, and delivering large-scale events for audiences of 100+ attendees. For several years, I served on the Board of Directors of the Ontario Youth Parliament as Director of Youth Programs, where I helped plan annual four-day conferences attended by hundreds of participants. My responsibilities included program development, event budgeting, and booking hotels and accommodations. At the Uxbridge Historical Centre, I supported the implementation of large public events such as Kite Day and the Lucy Maud Montgomery Teas, as well as event setup for weddings and private functions. Additionally, at St. Andrew’s Community Food Bank, I budgeted for, procured supplies for, planned, and delivered two large “Summer Fun Fest” events serving both the wider community and food bank patrons. In the Summer of 2026 I worked at the Markham Museum where I helped plan signature event that bring in more than 3000 guests. I booked vendors, performers, and helped schedule staff for these events. I also coordinated workorders and floorplans for event set up and tear down."
     ],
     images: [
       {
         src: "/img/programming/events/cabinet_oyp.jpg",
-        caption: "Me with the Cabinet of the Ontario Youth Parliament of 2023 who ran events for more that 50 youth.",
+        caption:
+          "Me with the Cabinet of the Ontario Youth Parliament of 2023 who ran events for more that 50 youth.",
       },
       {
         src: "/img/programming/events/event2.jpg",
-        caption: "Summer Fun Fest Event I ran at St. Andrews' Community Foodbank with more than 300 Attendees!",
+        caption:
+          "Summer Fun Fest Event I ran at St. Andrews' Community Foodbank with more than 300 Attendees!",
       },
       {
         src: "/img/programming/events/event3.jpg",
@@ -95,11 +106,13 @@ export const programming: ArticleData[] = [
       },
       {
         src: "/img/programming/events/event4.jpg",
-        caption: " Me and my MMC class mates setting Up For Lang Pioneer Villages Halloween Event.",
+        caption:
+          " Me and my MMC class mates setting Up For Lang Pioneer Villages Halloween Event.",
       },
       {
         src: "/img/programming/events/large1.jpg",
-        caption: "Running a strawberry Social Silent Auction at St. Andrews' Community Foodbank.",
+        caption:
+          "Running a strawberry Social Silent Auction at St. Andrews' Community Foodbank.",
       },
     ],
   },
