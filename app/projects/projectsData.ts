@@ -96,5 +96,21 @@ export const projects: ArticleData[] = [
         caption: "My battle station!",
       },
     ],
+  },{
+    id: "cm",
+    title: "Collections Management and Conservation",
+    location: "",
+    descriptionParagraphs: [
+      "Through my studies in Museum Management at Fleming College, as well as my work at the Uxbridge Historical Centre and the Peterborough Museum & Archives, I have developed strong skills in collections management and preventive conservation. My experience includes conducting inventories, cataloguing artifacts, preparing condition reports, organizing and rehousing collections, and maintaining accurate collections records. I have completed preventive conservation work on a variety of materials, including metals, wood, paper, and ceramics, following museum standards and best practices. In addition, I have assisted with exhibit and collections cleaning, helping to ensure the long-term preservation, care, and accessibility of cultural heritage collections.",
+    ],
+    images: [
+    
+      {
+        src: "A.jpg",
+        },
+      {
+        src: "b.jpg",
+      },
+    ],
   },
 ];

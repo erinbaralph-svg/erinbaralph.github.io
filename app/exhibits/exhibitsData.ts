@@ -101,4 +101,38 @@ export const exhibits: ArticleData[] = [
       },
     ],
   },
+  {
+    id: "we-wear-many-hats",
+    title: "We Wear Many Hats",
+    date: "Summer 2026",
+    location: "Peterborough Museum and Archives",
+    descriptionParagraphs: [
+      "From September 2025 to April 2026, I co-curated We Wear Many Hats for the Peterborough Museum & Archives as part of Fleming College's Museum Management program. Working from concept to completion, I served as both Project Manager and 3D Designer, overseeing research, budgeting, purchasing, scheduling, and team coordination. My contributions included exhibit research and script writing, floor plan development, panel and graphic design, furniture construction, and the overall management of the exhibition process, ensuring the successful delivery of a fully realized museum exhibit."
+    ],
+    images: [
+      {
+        src: "0.JPEG",
+        caption:""
+      },
+      {
+        src: "1.jpg",
+        caption: "",
+      },
+      {
+        src: "2.jpg",
+        caption:"",
+      },
+      {
+        src: "3.jpg",
+        caption:"",
+      },
+      {
+        src: "4.jpg",
+        caption:"",
+      },      {
+        src: "5.jpg",
+        caption:"" ,
+      },
+    ],
+  },
 ];
