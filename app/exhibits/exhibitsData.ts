@@ -69,15 +69,13 @@ export const exhibits: ArticleData[] = [
       "This mini exhibit was conceived, designed, and executed independently from start to finish. I developed the interpretive concept, designed and printed the primary information panel, and created a museum-safe mount to support and protect the object on display. I also proposed and implemented an interactive element to encourage visitor engagement and deepen interpretation. The completed mini exhibit was presented as part of a larger exhibition at the Peterborough Museum & Archives, where it contributed to the overall narrative of the show while functioning as a fully realized, self-contained display.",
     ],
     images: [
-            {
+      {
         src: "/img/exhibits/mini/mini_me.jpg",
-        caption:
-          "Me, my mom, and my grandma (the subject of my exhibit)",
+        caption: "Me, my mom, and my grandma (the subject of my exhibit)",
       },
       {
         src: "/img/exhibits/mini/minithumbnail.jpg",
-        caption:
-          "My Mini Exhibit",
+        caption: "My Mini Exhibit",
       },
       {
         src: "/img/exhibits/mini/mini2.jpg",
@@ -107,31 +105,32 @@ export const exhibits: ArticleData[] = [
     date: "Summer 2026",
     location: "Peterborough Museum and Archives",
     descriptionParagraphs: [
-      "From September 2025 to April 2026, I co-curated We Wear Many Hats for the Peterborough Museum & Archives as part of Fleming College's Museum Management program. Working from concept to completion, I served as both Project Manager and 3D Designer, overseeing research, budgeting, purchasing, scheduling, and team coordination. My contributions included exhibit research and script writing, floor plan development, panel and graphic design, furniture construction, and the overall management of the exhibition process, ensuring the successful delivery of a fully realized museum exhibit."
+      "From September 2025 to April 2026, I co-curated We Wear Many Hats for the Peterborough Museum & Archives as part of Fleming College's Museum Management program. Working from concept to completion, I served as both Project Manager and 3D Designer, overseeing research, budgeting, purchasing, scheduling, and team coordination. My contributions included exhibit research and script writing, floor plan development, panel and graphic design, furniture construction, and the overall management of the exhibition process, ensuring the successful delivery of a fully realized museum exhibit.",
     ],
     images: [
       {
-        src: "0.JPEG",
-        caption:""
-      },
-      {
-        src: "1.jpg",
+        src: "/img/exhibits/hats/0.JPEG",
         caption: "",
       },
       {
-        src: "2.jpg",
-        caption:"",
+        src: "/img/exhibits/hats/1.jpg",
+        caption: "",
       },
       {
-        src: "3.jpg",
-        caption:"",
+        src: "/img/exhibits/hats/2.jpg",
+        caption: "",
       },
       {
-        src: "4.jpg",
-        caption:"",
-      },      {
-        src: "5.jpg",
-        caption:"" ,
+        src: "/img/exhibits/hats/3.jpg",
+        caption: "",
+      },
+      {
+        src: "/img/exhibits/hats/4.jpg",
+        caption: "",
+      },
+      {
+        src: "/img/exhibits/hats/5.jpg",
+        caption: "",
       },
     ],
   },

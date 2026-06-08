@@ -12,22 +12,25 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/kawartha/kawartha_me.jpg",
-        caption: "Me deciding which archival documents to include in the exhibit.",
+        caption:
+          "Me deciding which archival documents to include in the exhibit.",
       },
       {
         src: "/img/projects/kawartha/kawartha_selfie.jpg",
-        caption: "Me at a meeting with the Shedden Historical Society looking at archival material.",
+        caption:
+          "Me at a meeting with the Shedden Historical Society looking at archival material.",
       },
       {
         src: "/img/projects/kawartha/kawartha_3d.png",
         caption: "3D design for Wellness Centre Exhibit.",
       },
-            {
+      {
         src: "/img/projects/kawartha/kawartha_3d_2.png",
         caption: "3D design for Wellness Centre Exhibit.",
       },
     ],
-  },{
+  },
+  {
     id: "uxbridge-preparator",
     title: "Museum Preperator",
     date: "Summer 2023",
@@ -38,18 +41,22 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/uxbridge/access.jpg",
-        caption: "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings.",
+        caption:
+          "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings.",
       },
       {
         src: "/img/projects/uxbridge/access2.jpg",
-        caption: "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings",
+        caption:
+          "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings",
       },
       {
         src: "/img/projects/uxbridge/access3.jpg",
-        caption: "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings",
+        caption:
+          "I worked to add yellow paint strips to any unsafe doorways in the Museum buildings",
       },
     ],
-  },{
+  },
+  {
     id: "uxbridge-attic",
     title: "School House Attic Clean Out",
     date: "Summer 2024",
@@ -60,12 +67,14 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/attic/attic_me.jpg",
-        caption: "Me in the attic of the Uxbridge Historical Centre School House at the start of the Project.",
+        caption:
+          "Me in the attic of the Uxbridge Historical Centre School House at the start of the Project.",
       },
       {
         src: "/img/projects/attic/attic1.jpg",
         caption: "The attic at the start of the Summer.",
-      },      {
+      },
+      {
         src: "/img/projects/attic/attic.jpg",
         caption: "The attic midway through the Summer.",
       },
@@ -74,7 +83,8 @@ export const projects: ArticleData[] = [
         caption: "The attic at the end of the Summer all cleaned out!",
       },
     ],
-  },{
+  },
+  {
     id: "archives",
     title: "All Saints' Church Archives",
     date: "May 2025 - Present",
@@ -85,18 +95,21 @@ export const projects: ArticleData[] = [
     images: [
       {
         src: "/img/projects/archives/archives2.jpg",
-        caption: "The Archives at All Saints' Whitby halfway through the project.",
+        caption:
+          "The Archives at All Saints' Whitby halfway through the project.",
       },
       {
         src: "/img/projects/archives/archives3.jpg",
-        caption: "I organized, labelled, catalogued and stored many pictures and paintings.",
+        caption:
+          "I organized, labelled, catalogued and stored many pictures and paintings.",
       },
       {
         src: "/img/projects/archives/archives4.jpg",
         caption: "My battle station!",
       },
     ],
-  },{
+  },
+  {
     id: "cm",
     title: "Collections Management and Conservation",
     location: "",
@@ -104,12 +117,11 @@ export const projects: ArticleData[] = [
       "Through my studies in Museum Management at Fleming College, as well as my work at the Uxbridge Historical Centre and the Peterborough Museum & Archives, I have developed strong skills in collections management and preventive conservation. My experience includes conducting inventories, cataloguing artifacts, preparing condition reports, organizing and rehousing collections, and maintaining accurate collections records. I have completed preventive conservation work on a variety of materials, including metals, wood, paper, and ceramics, following museum standards and best practices. In addition, I have assisted with exhibit and collections cleaning, helping to ensure the long-term preservation, care, and accessibility of cultural heritage collections.",
     ],
     images: [
-    
       {
-        src: "A.jpg",
-        },
+        src: "/img/projects/cm/A.jpg",
+      },
       {
-        src: "b.jpg",
+        src: "/img/projects/cm/b.jpg",
       },
     ],
   },
