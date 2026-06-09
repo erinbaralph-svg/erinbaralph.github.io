@@ -16,7 +16,7 @@ export default function ExhibitsPage() {
       </Rover>
       <Navbar currentPageHref="/exhibits" />
       <main className="p-2 pb-4 overflow-y-auto flex flex-col flex-grow">
-        <div className="flex flex-wrap justify-center md:justify-start gap-2">
+        <div className="flex flex-wrap justify-center gap-2">
           {exhibits.map((e, index) => (
             <ArticleWindow key={index} articleData={e} urlPrefix="exhibits" />
           ))}

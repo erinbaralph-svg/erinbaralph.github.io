@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ImageOverlay } from "@/components/ImageOverlay";
 import { hideRoverTip, Rover } from "./Rover";
+import ReactMarkdown from "react-markdown";
 
 export function ArticleView({
   articleData,
@@ -75,11 +76,25 @@ export function ArticleView({
                 <p>{articleData.date}</p>
               </div>
             )}
-            {articleData.descriptionParagraphs.map((text, index) => (
-              <p key={index} className="leading-6">
-                {text}
-              </p>
-            ))}
+            <div className="flex flex-col gap-4">
+              <ReactMarkdown
+                components={{
+                  p: ({ children }) => <p className="leading-6">{children}</p>,
+                  a: ({ children, href }) => (
+                    <a
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#0000EE] underline underline-offset-2"
+                    >
+                      {children}
+                    </a>
+                  ),
+                }}
+              >
+                {articleData.description}
+              </ReactMarkdown>
+            </div>
           </div>
           <div className="w-full lg:max-w-1/2 grid grid-cols-2 h-fit gap-4">
             {articleData.images.map((image, index) => (

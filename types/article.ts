@@ -8,6 +8,6 @@ export type ArticleData = {
   title: string;
   date?: string;
   location?: string;
-  descriptionParagraphs: string[];
+  description: string;
   images: ImageData[];
 };

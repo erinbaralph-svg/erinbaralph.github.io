@@ -6,9 +6,8 @@ export const projects: ArticleData[] = [
     title: "Exhibit Consultant",
     date: "2025-2026",
     location: "Kawartha Lakes, ON",
-    descriptionParagraphs: [
+    description:
       "Since October 2025, I have been working part-time with the Kawartha Lakes area and its Historical Society to develop historical displays for a new wellness centre opening this spring. As part of this project, I have written exhibit text, created concept art and 3D exhibit designs, and conducted research on display case procurement and panel printing. I have also participated in multiple design meetings with the Historical Society and assisted in the selection and restoration of historical photographs.",
-    ],
     images: [
       {
         src: "/img/projects/kawartha/kawartha_me.jpg",
@@ -35,9 +34,8 @@ export const projects: ArticleData[] = [
     title: "Museum Preperator",
     date: "2023",
     location: "Uxbridge Historical Centre",
-    descriptionParagraphs: [
+    description:
       "As Museum Preparator at the Uxbridge Historical Centre, I completed extensive site maintenance and preparation work, including painting key exterior structures, adding high-visibility accessibility markings, and maintaining large farm equipment to ensure visitor safety and artifact preservation.",
-    ],
     images: [
       {
         src: "/img/projects/uxbridge/access.jpg",
@@ -61,9 +59,8 @@ export const projects: ArticleData[] = [
     title: "School House Attic Clean Out",
     date: "2024",
     location: "Uxbridge Historical Centre",
-    descriptionParagraphs: [
+    description:
       "In the summer of 2024, I worked as a Collections Assistant at the Uxbridge Historical Centre. My main responsibility was a large-scale project involving the cleaning and reorganization of the attic in one of the Centre’s historic buildings. Through this work, I gained hands-on experience in deaccessioning, condition reporting, cataloguing, inventory management, proper storage, and safe disposal practices. I used Excel and museum collections management software to document artifacts and maintain accurate records, while following conservation and safety standards throughout the project.",
-    ],
     images: [
       {
         src: "/img/projects/attic/attic_me.jpg",
@@ -89,9 +86,8 @@ export const projects: ArticleData[] = [
     title: "All Saints' Church Archives",
     date: "2025-Present",
     location: "All Saints' Anglican Church, Whitby",
-    descriptionParagraphs: [
+    description:
       "Over the past year, I have undertaken a major overhaul project in the archives of All Saints’ Church in Whitby. This work has included archival cleaning and basic conservation, reorganizing and cataloguing materials, accessioning records, and building an entirely new archival database from the ground up. I have also contributed to creating public history displays to make the collection more accessible to the community.",
-    ],
     images: [
       {
         src: "/img/projects/archives/archives2.jpg",
@@ -112,9 +108,8 @@ export const projects: ArticleData[] = [
   {
     id: "cm",
     title: "Collections Management and Conservation",
-    descriptionParagraphs: [
+    description:
       "Through my studies in Museum Management at Fleming College, as well as my work at the Uxbridge Historical Centre and the Peterborough Museum & Archives, I have developed strong skills in collections management and preventive conservation. My experience includes conducting inventories, cataloguing artifacts, preparing condition reports, organizing and rehousing collections, and maintaining accurate collections records. I have completed preventive conservation work on a variety of materials, including metals, wood, paper, and ceramics, following museum standards and best practices. In addition, I have assisted with exhibit and collections cleaning, helping to ensure the long-term preservation, care, and accessibility of cultural heritage collections.",
-    ],
     images: [
       {
         src: "/img/projects/cm/A.jpg",

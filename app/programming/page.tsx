@@ -13,8 +13,8 @@ export default function ExhibitsPage() {
     <>
       <Rover tipName={"articles"}>Click on each item to read more!</Rover>
       <Navbar currentPageHref="/programming" />
-      <main className="p-2 pb-4 overflow-y-auto flex flex-col flex-grow">
-        <div className="flex flex-wrap justify-center md:justify-start gap-2">
+      <main className="p-2 pb-4 overflow-y-auto flex flex-col items-center flex-grow">
+        <div className="flex flex-wrap justify-center gap-2">
           {programming.map((e, index) => (
             <ArticleWindow
               key={index}
